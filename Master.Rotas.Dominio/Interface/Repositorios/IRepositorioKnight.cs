@@ -5,8 +5,9 @@ namespace Master.Rotas.Dominio.Interface.Repositorios
 {
     public interface IRepositorioKnight
     {
-        Task<KnightEntidade> Incluir(KnightEntidade knightEntidade);
-        Task<KnightEntidade> Alterar(KnightEntidade knightEntidade);        
-        IEnumerable<KnightDto> Obter(string id);        
+        Task Incluir(KnightEntidade knightEntidade);
+        Task<bool> Alterar(KnightEntidade knightEntidade);        
+        Task<IEnumerable<KnightEntidade>> Obter(string id);
+        Task<bool> Excluir(string id);
     }
 }

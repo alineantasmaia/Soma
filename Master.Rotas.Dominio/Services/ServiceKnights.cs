@@ -1,5 +1,4 @@
-﻿using Master.Rotas.Dominio.Dto;
-using Master.Rotas.Dominio.Entidade;
+﻿using Master.Rotas.Dominio.Entidade;
 using Master.Rotas.Dominio.Interface.Repositorios;
 using Master.Rotas.Dominio.Interface.Servicos;
 
@@ -13,37 +12,30 @@ namespace Master.Rotas.Dominio.Services
         {
             _repositorioKnight = repositorioKnight;
         }
-        public void Incluir(KnightDto knightDto)
+        public bool Incluir(KnightEntidade knightDto)
         {
-            ValidarObjeto(knightDto);
-            var tabela = new KnightEntidade();
-            tabela = MontarObjetoTabela(tabela, knightDto);
-            var retorno = _repositorioKnight.Incluir(tabela).Result;
+            ValidarObjeto(knightDto);            
+            return _repositorioKnight.Incluir(knightDto).IsCompletedSuccessfully;
         }
 
-        public IEnumerable<KnightDto> Obter(string id)
+        public Task<IEnumerable<KnightEntidade>> Obter(string id)
         {
             return _repositorioKnight.Obter(id);
         }
 
-        public void Atualizar(KnightDto knightDto)
+        public bool Atualizar(KnightEntidade knightDto)
         {
-
+            return _repositorioKnight.Alterar(knightDto).IsCompletedSuccessfully;
         }
 
-        public void Excluir(string id)
+        public bool Excluir(string id)
         {
-            throw new NotImplementedException();
+            return _repositorioKnight.Excluir(id).IsCompletedSuccessfully;
         }
 
-        private KnightEntidade MontarObjetoTabela(KnightEntidade tabela, KnightDto knightDto)
+        private void ValidarObjeto(KnightEntidade knightDto)
         {
-            return new KnightEntidade() { };
-        }
-
-        private void ValidarObjeto(KnightDto knightDto)
-        {
-            if (knightDto.Id == "")
+            if (knightDto.Id.Equals(null))
             {
                 throw new Exception("Obrigatório informar a chave id!");
             }

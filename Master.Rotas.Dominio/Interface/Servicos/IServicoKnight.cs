@@ -1,17 +1,12 @@
-﻿using Master.Rotas.Dominio.Dto;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Master.Rotas.Dominio.Entidade;
 
 namespace Master.Rotas.Dominio.Interface.Servicos
 {
     public interface IServicoKnight
     {
-        IEnumerable<KnightDto> Obter(string id);
-        void Incluir(KnightDto knight);
-        void Atualizar(KnightDto knight);
-        void Excluir(string id);
+        Task<IEnumerable<KnightEntidade>> Obter(string id);
+        bool Incluir(KnightEntidade knight);
+        bool Atualizar(KnightEntidade knight);
+        bool Excluir(string id);
     }
 }
