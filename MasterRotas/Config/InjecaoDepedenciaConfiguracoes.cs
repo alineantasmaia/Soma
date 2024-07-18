@@ -13,7 +13,7 @@ namespace Master.Rotas.Config
     {
         public static void AddInjecaoDependenciaConfig(this IServiceCollection services)
         {            
-            services.AddScoped<IServicoKnight, IServicoKnight>();
+            services.AddScoped<IServicoKnight, ServiceKnights>();
             services.AddScoped<IRepositorioKnight,RepositorioKnight>();
 
             services.AddScoped<IServicoProvedorHttpClient, ServicoProvedorHttpClient>();

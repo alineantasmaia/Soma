@@ -206,11 +206,11 @@
           "dependencies": {
             "Autofac.Extensions.DependencyInjection": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[8.0.0, )"
             },
             "Elastic.Apm.NetCoreAll": {
               "target": "Package",
-              "version": "[1.27.1, )"
+              "version": "[1.28.0, )"
             },
             "Microsoft.AspNetCore.Mvc.Versioning": {
               "target": "Package",
@@ -226,15 +226,15 @@
             },
             "Microsoft.OpenApi": {
               "target": "Package",
-              "version": "[1.6.14, )"
+              "version": "[1.6.15, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[8.0.2, )"
+              "version": "[8.0.3, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[6.6.2, )"
             }
           },
           "imports": [

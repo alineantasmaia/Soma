@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Master.Rotas.Infra")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43fa8af4bd74769a01fa3b58fbbefcf95edade4e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+543ab766099521f48d51f1e58b79f247928215e5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Master.Rotas.Infra")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Master.Rotas.Infra")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

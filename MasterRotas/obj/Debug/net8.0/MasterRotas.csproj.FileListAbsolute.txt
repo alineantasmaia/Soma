@@ -795,17 +795,6 @@ C:\Workspace\ALINE PESSOAL\EXAms\master\MasterRotas\obj\Debug\net8.0\refint\Mast
 C:\Workspace\ALINE PESSOAL\EXAms\master\MasterRotas\obj\Debug\net8.0\MasterRotas.pdb
 C:\Workspace\ALINE PESSOAL\EXAms\master\MasterRotas\obj\Debug\net8.0\MasterRotas.genruntimeconfig.cache
 C:\Workspace\ALINE PESSOAL\EXAms\master\MasterRotas\obj\Debug\net8.0\ref\MasterRotas.dll
-C:\KChallanger\Backend\MasterRotas\obj\Debug\net8.0\MasterRotas.csproj.AssemblyReference.cache
-C:\KChallanger\Backend\MasterRotas\obj\Debug\net8.0\MasterRotas.GeneratedMSBuildEditorConfig.editorconfig
-C:\KChallanger\Backend\MasterRotas\obj\Debug\net8.0\MasterRotas.AssemblyInfoInputs.cache
-C:\KChallanger\Backend\MasterRotas\obj\Debug\net8.0\MasterRotas.AssemblyInfo.cs
-C:\KChallanger\Backend\MasterRotas\obj\Debug\net8.0\MasterRotas.csproj.CoreCompileInputs.cache
-C:\KChallanger\Backend\MasterRotas\obj\Debug\net8.0\MasterRotas.MvcApplicationPartsAssemblyInfo.cs
-C:\KChallanger\Backend\MasterRotas\obj\Debug\net8.0\MasterRotas.MvcApplicationPartsAssemblyInfo.cache
-C:\KChallanger\Backend\MasterRotas\obj\Debug\net8.0\MasterRotas.sourcelink.json
-C:\KChallanger\Backend\MasterRotas\obj\Debug\net8.0\MasterRotas.dll
-C:\KChallanger\Backend\MasterRotas\obj\Debug\net8.0\refint\MasterRotas.dll
-C:\KChallanger\Backend\MasterRotas\obj\Debug\net8.0\MasterRotas.pdb
 C:\KChallanger\Backend\MasterRotas\bin\Debug\net8.0\appsettings.Development.json
 C:\KChallanger\Backend\MasterRotas\bin\Debug\net8.0\appsettings.json
 C:\KChallanger\Backend\MasterRotas\bin\Debug\net8.0\MasterRotas.exe
@@ -1050,6 +1039,14 @@ C:\KChallanger\Backend\MasterRotas\bin\Debug\net8.0\Master.Rotas.Dominio.dll
 C:\KChallanger\Backend\MasterRotas\bin\Debug\net8.0\Master.Rotas.Infra.dll
 C:\KChallanger\Backend\MasterRotas\bin\Debug\net8.0\Master.Rotas.Dominio.pdb
 C:\KChallanger\Backend\MasterRotas\bin\Debug\net8.0\Master.Rotas.Infra.pdb
+C:\KChallanger\Backend\MasterRotas\obj\Debug\net8.0\MasterRotas.csproj.AssemblyReference.cache
+C:\KChallanger\Backend\MasterRotas\obj\Debug\net8.0\MasterRotas.GeneratedMSBuildEditorConfig.editorconfig
+C:\KChallanger\Backend\MasterRotas\obj\Debug\net8.0\MasterRotas.AssemblyInfoInputs.cache
+C:\KChallanger\Backend\MasterRotas\obj\Debug\net8.0\MasterRotas.AssemblyInfo.cs
+C:\KChallanger\Backend\MasterRotas\obj\Debug\net8.0\MasterRotas.csproj.CoreCompileInputs.cache
+C:\KChallanger\Backend\MasterRotas\obj\Debug\net8.0\MasterRotas.MvcApplicationPartsAssemblyInfo.cs
+C:\KChallanger\Backend\MasterRotas\obj\Debug\net8.0\MasterRotas.MvcApplicationPartsAssemblyInfo.cache
+C:\KChallanger\Backend\MasterRotas\obj\Debug\net8.0\MasterRotas.sourcelink.json
 C:\KChallanger\Backend\MasterRotas\obj\Debug\net8.0\staticwebassets.build.json
 C:\KChallanger\Backend\MasterRotas\obj\Debug\net8.0\staticwebassets.development.json
 C:\KChallanger\Backend\MasterRotas\obj\Debug\net8.0\staticwebassets\msbuild.MasterRotas.Microsoft.AspNetCore.StaticWebAssets.props
@@ -1059,5 +1056,8 @@ C:\KChallanger\Backend\MasterRotas\obj\Debug\net8.0\staticwebassets\msbuild.buil
 C:\KChallanger\Backend\MasterRotas\obj\Debug\net8.0\staticwebassets.pack.json
 C:\KChallanger\Backend\MasterRotas\obj\Debug\net8.0\scopedcss\bundle\MasterRotas.styles.css
 C:\KChallanger\Backend\MasterRotas\obj\Debug\net8.0\MasterRo.2E440626.Up2Date
+C:\KChallanger\Backend\MasterRotas\obj\Debug\net8.0\MasterRotas.dll
+C:\KChallanger\Backend\MasterRotas\obj\Debug\net8.0\refint\MasterRotas.dll
+C:\KChallanger\Backend\MasterRotas\obj\Debug\net8.0\MasterRotas.pdb
 C:\KChallanger\Backend\MasterRotas\obj\Debug\net8.0\MasterRotas.genruntimeconfig.cache
 C:\KChallanger\Backend\MasterRotas\obj\Debug\net8.0\ref\MasterRotas.dll

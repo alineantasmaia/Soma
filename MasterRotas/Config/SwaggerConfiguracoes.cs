@@ -47,35 +47,6 @@ namespace Master.Rotas.Config
                 foreach (var path in paths) options.IncludeXmlComments(path);
 
 
-                //var scopesList = configuration["Seguranca:ServidorIdentidade:EscopoAcesso"].Split(" ").ToDictionary(x =>
-                //{
-                //    return x;
-                //});
-
-                //options.AddSecurityDefinition("oauth2", new OpenApiSecurityScheme()
-                //{
-                //    Type = SecuritySchemeType.OAuth2,
-                //    Flows = new OpenApiOAuthFlows
-                //    {
-                //        Implicit = new OpenApiOAuthFlow
-                //        {
-                //            AuthorizationUrl = new Uri($"{configuration["Seguranca:ServidorIdentidade:Endpoint"]}/connect/authorize"),
-                //            Scopes = new Dictionary<string, string>
-                //            {
-                //                { configuration["Seguranca:ServidorIdentidade:EscopoAcesso"], "Swagger Tabela Preço" }
-                //            }
-                //        },
-                //        ClientCredentials = new OpenApiOAuthFlow
-                //        {
-                //            TokenUrl = new Uri($"{configuration["Seguranca:ServidorIdentidade:Endpoint"]}/connect/token"),
-                //            Scopes = scopesList
-                //        }
-                //    }
-
-                //});
-
-
-
             });
         }
 
@@ -113,31 +84,18 @@ namespace Master.Rotas.Config
               options =>
               {
                   foreach (var description in provider.ApiVersionDescriptions)
-                  {
-                      //options.SwaggerEndpoint($"{configuracao["Swagger:JsonEndpoint"]}{description.GroupName}/swagger.json", description.GroupName.ToUpperInvariant());
+                  {   
                       options.SwaggerEndpoint($"/swagger/{description.GroupName}/swagger.json", description.GroupName.ToUpperInvariant());
                   }
 
                   options.DocExpansion(DocExpansion.List);
-                  options.RoutePrefix = configuracao["Swagger:Prefixo"];
-                  //options.OAuthClientId(configuracao["Swagger:OAuth:ClientId"]);
-                  //options.OAuthClientSecret(configuracao["Swagger:OAuth:ClientSecret"]);
-                  //options.OAuthAppName(configuracao["Swagger:OAuth:AppName"]);
+                  options.RoutePrefix = configuracao["Swagger:Prefixo"];                  
                   options.OAuthScopeSeparator(" ");
                   options.OAuthUsePkce();
               });
 
             return app;
         }
-
-
-
-
-
-
-
-
-
     }
 
     public class ConfigureSwaggerOptions : IConfigureOptions<SwaggerGenOptions>
@@ -173,7 +131,7 @@ namespace Master.Rotas.Config
                 Title = $"{_configuracao["Swagger:Titulo"]} ({_ambiente.EnvironmentName} | {Environment.MachineName})",
                 Version = description.ApiVersion.ToString(),
                 Description = $"{_configuracao["Swagger:Descricao"]}",
-                Contact = new OpenApiContact() { Name = "MASTER IT", Email = "suporte@actdigital.com" }
+                Contact = new OpenApiContact() { Name = "ACT IT", Email = "suporte@actdigital.com" }
             };
 
             if (description.IsDeprecated)
@@ -253,20 +211,7 @@ namespace Master.Rotas.Config
         {
             if (operation.Parameters == null)
                 operation.Parameters = new List<OpenApiParameter>();
-
-            //operation.Parameters.Add(new OpenApiParameter
-            //{
-            //    Name = "Btp-Subscription-Key",
-            //    In = ParameterLocation.Header,
-            //    Schema = new OpenApiSchema
-            //    {
-            //        Type = "string",
-            //        Example = new OpenApiString(_configuration["Seguranca:Subscription-Key"]),
-            //    },
-            //    Required = true,
-            //    Description = "Chave que identifica o consumidor da API",
-
-            //});
+            
         }
     }
 
