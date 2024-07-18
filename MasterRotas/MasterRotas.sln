@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasterRotas", "MasterRotas.csproj", "{C3CC74BF-82EC-48F7-AB74-84A5F5ABDAF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Master.Rotas.Infra", "..\Master.Rotas.Infra\Master.Rotas.Infra.csproj", "{B254E94B-6805-4F70-9FE3-8527692571D5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Master.Rotas.Infra", "..\Master.Rotas.Infra\Master.Rotas.Infra.csproj", "{4411B329-2EA8-47D7-ABC4-5E2FCE4DE968}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Master.Rotas.Dominio", "..\Master.Rotas.Dominio\Master.Rotas.Dominio.csproj", "{C73E11C0-14E1-484E-A191-449EF558C774}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Master.Rotas.Dominio", "..\Master.Rotas.Dominio\Master.Rotas.Dominio.csproj", "{3157B836-07EC-4B3E-B123-D6496902704D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasterRotas", "MasterRotas.csproj", "{949BBCB4-0353-4EB1-BC8A-601FE1A36EEF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C3CC74BF-82EC-48F7-AB74-84A5F5ABDAF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C3CC74BF-82EC-48F7-AB74-84A5F5ABDAF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C3CC74BF-82EC-48F7-AB74-84A5F5ABDAF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C3CC74BF-82EC-48F7-AB74-84A5F5ABDAF4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4411B329-2EA8-47D7-ABC4-5E2FCE4DE968}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4411B329-2EA8-47D7-ABC4-5E2FCE4DE968}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4411B329-2EA8-47D7-ABC4-5E2FCE4DE968}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4411B329-2EA8-47D7-ABC4-5E2FCE4DE968}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3157B836-07EC-4B3E-B123-D6496902704D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3157B836-07EC-4B3E-B123-D6496902704D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3157B836-07EC-4B3E-B123-D6496902704D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3157B836-07EC-4B3E-B123-D6496902704D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B254E94B-6805-4F70-9FE3-8527692571D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B254E94B-6805-4F70-9FE3-8527692571D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B254E94B-6805-4F70-9FE3-8527692571D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B254E94B-6805-4F70-9FE3-8527692571D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C73E11C0-14E1-484E-A191-449EF558C774}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C73E11C0-14E1-484E-A191-449EF558C774}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C73E11C0-14E1-484E-A191-449EF558C774}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C73E11C0-14E1-484E-A191-449EF558C774}.Release|Any CPU.Build.0 = Release|Any CPU
+		{949BBCB4-0353-4EB1-BC8A-601FE1A36EEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{949BBCB4-0353-4EB1-BC8A-601FE1A36EEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{949BBCB4-0353-4EB1-BC8A-601FE1A36EEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{949BBCB4-0353-4EB1-BC8A-601FE1A36EEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

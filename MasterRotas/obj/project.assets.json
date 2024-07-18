@@ -2,35 +2,35 @@
   "version": 3,
   "targets": {
     "net8.0": {
-      "Autofac/8.0.0": {
+      "Autofac/6.4.0": {
         "type": "package",
         "dependencies": {
-          "System.Diagnostics.DiagnosticSource": "7.0.2"
+          "System.Diagnostics.DiagnosticSource": "4.7.1"
         },
         "compile": {
-          "lib/net8.0/Autofac.dll": {
+          "lib/net6.0/Autofac.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net8.0/Autofac.dll": {
+          "lib/net6.0/Autofac.dll": {
             "related": ".xml"
           }
         }
       },
-      "Autofac.Extensions.DependencyInjection/9.0.0": {
+      "Autofac.Extensions.DependencyInjection/8.0.0": {
         "type": "package",
         "dependencies": {
-          "Autofac": "8.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
+          "Autofac": "6.4.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
         },
         "compile": {
-          "lib/net8.0/Autofac.Extensions.DependencyInjection.dll": {
+          "lib/net6.0/Autofac.Extensions.DependencyInjection.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net8.0/Autofac.Extensions.DependencyInjection.dll": {
+          "lib/net6.0/Autofac.Extensions.DependencyInjection.dll": {
             "related": ".xml"
           }
         }
@@ -93,14 +93,10 @@
           }
         }
       },
-      "Elastic.Apm/1.27.1": {
+      "Elastic.Apm/1.28.0": {
         "type": "package",
         "dependencies": {
-          "System.Diagnostics.DiagnosticSource": "5.0.0",
-          "System.Diagnostics.PerformanceCounter": "6.0.1",
-          "System.Reflection.Metadata": "5.0.0",
-          "System.Threading.Tasks.Dataflow": "4.9.0",
-          "System.Threading.Tasks.Extensions": "4.5.4"
+          "System.Diagnostics.PerformanceCounter": "6.0.1"
         },
         "compile": {
           "lib/net6.0/Elastic.Apm.dll": {
@@ -113,11 +109,11 @@
           }
         }
       },
-      "Elastic.Apm.AspNetCore/1.27.1": {
+      "Elastic.Apm.AspNetCore/1.28.0": {
         "type": "package",
         "dependencies": {
-          "Elastic.Apm": "1.27.1",
-          "Elastic.Apm.Extensions.Hosting": "1.27.1"
+          "Elastic.Apm": "1.28.0",
+          "Elastic.Apm.Extensions.Hosting": "1.28.0"
         },
         "compile": {
           "lib/net6.0/Elastic.Apm.AspNetCore.dll": {
@@ -133,10 +129,10 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "Elastic.Apm.Azure.CosmosDb/1.27.1": {
+      "Elastic.Apm.Azure.CosmosDb/1.28.0": {
         "type": "package",
         "dependencies": {
-          "Elastic.Apm": "1.27.1"
+          "Elastic.Apm": "1.28.0"
         },
         "compile": {
           "lib/netstandard2.0/Elastic.Apm.Azure.CosmosDb.dll": {
@@ -149,10 +145,10 @@
           }
         }
       },
-      "Elastic.Apm.Azure.ServiceBus/1.27.1": {
+      "Elastic.Apm.Azure.ServiceBus/1.28.0": {
         "type": "package",
         "dependencies": {
-          "Elastic.Apm": "1.27.1"
+          "Elastic.Apm": "1.28.0"
         },
         "compile": {
           "lib/net6.0/Elastic.Apm.Azure.ServiceBus.dll": {
@@ -165,10 +161,10 @@
           }
         }
       },
-      "Elastic.Apm.Azure.Storage/1.27.1": {
+      "Elastic.Apm.Azure.Storage/1.28.0": {
         "type": "package",
         "dependencies": {
-          "Elastic.Apm": "1.27.1"
+          "Elastic.Apm": "1.28.0"
         },
         "compile": {
           "lib/netstandard2.0/Elastic.Apm.Azure.Storage.dll": {
@@ -181,10 +177,10 @@
           }
         }
       },
-      "Elastic.Apm.Elasticsearch/1.27.1": {
+      "Elastic.Apm.Elasticsearch/1.28.0": {
         "type": "package",
         "dependencies": {
-          "Elastic.Apm": "1.27.1",
+          "Elastic.Apm": "1.28.0",
           "Elasticsearch.Net": "7.6.0"
         },
         "compile": {
@@ -198,10 +194,10 @@
           }
         }
       },
-      "Elastic.Apm.EntityFrameworkCore/1.27.1": {
+      "Elastic.Apm.EntityFrameworkCore/1.28.0": {
         "type": "package",
         "dependencies": {
-          "Elastic.Apm": "1.27.1"
+          "Elastic.Apm": "1.28.0"
         },
         "compile": {
           "lib/net6.0/Elastic.Apm.EntityFrameworkCore.dll": {
@@ -214,11 +210,11 @@
           }
         }
       },
-      "Elastic.Apm.Extensions.Hosting/1.27.1": {
+      "Elastic.Apm.Extensions.Hosting/1.28.0": {
         "type": "package",
         "dependencies": {
-          "Elastic.Apm": "1.27.1",
-          "Elastic.Apm.Extensions.Logging": "1.27.1",
+          "Elastic.Apm": "1.28.0",
+          "Elastic.Apm.Extensions.Logging": "1.28.0",
           "Microsoft.Extensions.DependencyInjection": "6.0.0",
           "Microsoft.Extensions.Hosting.Abstractions": "6.0.0",
           "Microsoft.Extensions.Logging.Abstractions": "6.0.0"
@@ -234,10 +230,10 @@
           }
         }
       },
-      "Elastic.Apm.Extensions.Logging/1.27.1": {
+      "Elastic.Apm.Extensions.Logging/1.28.0": {
         "type": "package",
         "dependencies": {
-          "Elastic.Apm": "1.27.1"
+          "Elastic.Apm": "1.28.0"
         },
         "compile": {
           "lib/net6.0/Elastic.Apm.Extensions.Logging.dll": {
@@ -250,10 +246,10 @@
           }
         }
       },
-      "Elastic.Apm.GrpcClient/1.27.1": {
+      "Elastic.Apm.GrpcClient/1.28.0": {
         "type": "package",
         "dependencies": {
-          "Elastic.Apm": "1.27.1"
+          "Elastic.Apm": "1.28.0"
         },
         "compile": {
           "lib/netstandard2.0/Elastic.Apm.GrpcClient.dll": {
@@ -266,10 +262,10 @@
           }
         }
       },
-      "Elastic.Apm.MongoDb/1.27.1": {
+      "Elastic.Apm.MongoDb/1.28.0": {
         "type": "package",
         "dependencies": {
-          "Elastic.Apm": "1.27.1",
+          "Elastic.Apm": "1.28.0",
           "MongoDB.Driver.Core": "2.19.0"
         },
         "compile": {
@@ -283,18 +279,18 @@
           }
         }
       },
-      "Elastic.Apm.NetCoreAll/1.27.1": {
+      "Elastic.Apm.NetCoreAll/1.28.0": {
         "type": "package",
         "dependencies": {
-          "Elastic.Apm": "1.27.1",
-          "Elastic.Apm.AspNetCore": "1.27.1",
-          "Elastic.Apm.Azure.CosmosDb": "1.27.1",
-          "Elastic.Apm.Azure.ServiceBus": "1.27.1",
-          "Elastic.Apm.Azure.Storage": "1.27.1",
-          "Elastic.Apm.Elasticsearch": "1.27.1",
-          "Elastic.Apm.EntityFrameworkCore": "1.27.1",
-          "Elastic.Apm.GrpcClient": "1.27.1",
-          "Elastic.Apm.MongoDb": "1.27.1"
+          "Elastic.Apm": "1.28.0",
+          "Elastic.Apm.AspNetCore": "1.28.0",
+          "Elastic.Apm.Azure.CosmosDb": "1.28.0",
+          "Elastic.Apm.Azure.ServiceBus": "1.28.0",
+          "Elastic.Apm.Azure.Storage": "1.28.0",
+          "Elastic.Apm.Elasticsearch": "1.28.0",
+          "Elastic.Apm.EntityFrameworkCore": "1.28.0",
+          "Elastic.Apm.GrpcClient": "1.28.0",
+          "Elastic.Apm.MongoDb": "1.28.0"
         },
         "compile": {
           "lib/net6.0/Elastic.Apm.NetCoreAll.dll": {
@@ -1512,7 +1508,7 @@
           }
         }
       },
-      "Microsoft.DotNet.Scaffolding.Shared/8.0.2": {
+      "Microsoft.DotNet.Scaffolding.Shared/8.0.3": {
         "type": "package",
         "dependencies": {
           "Humanizer": "2.14.1",
@@ -1998,7 +1994,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.OpenApi/1.6.14": {
+      "Microsoft.OpenApi/1.6.15": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {
@@ -2011,11 +2007,11 @@
           }
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGeneration/8.0.2": {
+      "Microsoft.VisualStudio.Web.CodeGeneration/8.0.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "8.0.0",
-          "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore": "8.0.2"
+          "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore": "8.0.3"
         },
         "compile": {
           "lib/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.dll": {
@@ -2028,11 +2024,11 @@
           }
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGeneration.Core/8.0.2": {
+      "Microsoft.VisualStudio.Web.CodeGeneration.Core/8.0.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "8.0.0",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Templating": "8.0.2",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Templating": "8.0.3",
           "Newtonsoft.Json": "13.0.3"
         },
         "compile": {
@@ -2046,11 +2042,11 @@
           }
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design/8.0.2": {
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design/8.0.3": {
         "type": "package",
         "dependencies": {
-          "Microsoft.DotNet.Scaffolding.Shared": "8.0.2",
-          "Microsoft.VisualStudio.Web.CodeGenerators.Mvc": "8.0.2"
+          "Microsoft.DotNet.Scaffolding.Shared": "8.0.3",
+          "Microsoft.VisualStudio.Web.CodeGenerators.Mvc": "8.0.3"
         },
         "compile": {
           "lib/net8.0/dotnet-aspnet-codegenerator-design.dll": {
@@ -2063,11 +2059,11 @@
           }
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore/8.0.2": {
+      "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore/8.0.3": {
         "type": "package",
         "dependencies": {
-          "Microsoft.DotNet.Scaffolding.Shared": "8.0.2",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Core": "8.0.2"
+          "Microsoft.DotNet.Scaffolding.Shared": "8.0.3",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Core": "8.0.3"
         },
         "compile": {
           "lib/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll": {
@@ -2080,13 +2076,13 @@
           }
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGeneration.Templating/8.0.2": {
+      "Microsoft.VisualStudio.Web.CodeGeneration.Templating/8.0.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Razor.Language": "6.0.24",
           "Microsoft.CodeAnalysis.CSharp": "4.8.0",
           "Microsoft.CodeAnalysis.Razor": "6.0.24",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Utils": "8.0.2"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Utils": "8.0.3"
         },
         "compile": {
           "lib/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll": {
@@ -2099,12 +2095,12 @@
           }
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGeneration.Utils/8.0.2": {
+      "Microsoft.VisualStudio.Web.CodeGeneration.Utils/8.0.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.Build": "17.8.3",
           "Microsoft.CodeAnalysis.CSharp.Workspaces": "4.8.0",
-          "Microsoft.DotNet.Scaffolding.Shared": "8.0.2",
+          "Microsoft.DotNet.Scaffolding.Shared": "8.0.3",
           "Newtonsoft.Json": "13.0.3"
         },
         "compile": {
@@ -2118,11 +2114,11 @@
           }
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGenerators.Mvc/8.0.2": {
+      "Microsoft.VisualStudio.Web.CodeGenerators.Mvc/8.0.3": {
         "type": "package",
         "dependencies": {
-          "Microsoft.DotNet.Scaffolding.Shared": "8.0.2",
-          "Microsoft.VisualStudio.Web.CodeGeneration": "8.0.2"
+          "Microsoft.DotNet.Scaffolding.Shared": "8.0.3",
+          "Microsoft.VisualStudio.Web.CodeGeneration": "8.0.3"
         },
         "compile": {
           "lib/net8.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll": {
@@ -2642,30 +2638,30 @@
           }
         }
       },
-      "Swashbuckle.AspNetCore/6.4.0": {
+      "Swashbuckle.AspNetCore/6.6.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.ApiDescription.Server": "6.0.5",
-          "Swashbuckle.AspNetCore.Swagger": "6.4.0",
-          "Swashbuckle.AspNetCore.SwaggerGen": "6.4.0",
-          "Swashbuckle.AspNetCore.SwaggerUI": "6.4.0"
+          "Swashbuckle.AspNetCore.Swagger": "6.6.2",
+          "Swashbuckle.AspNetCore.SwaggerGen": "6.6.2",
+          "Swashbuckle.AspNetCore.SwaggerUI": "6.6.2"
         },
         "build": {
           "build/Swashbuckle.AspNetCore.props": {}
         }
       },
-      "Swashbuckle.AspNetCore.Swagger/6.4.0": {
+      "Swashbuckle.AspNetCore.Swagger/6.6.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.OpenApi": "1.2.3"
+          "Microsoft.OpenApi": "1.6.14"
         },
         "compile": {
-          "lib/net6.0/Swashbuckle.AspNetCore.Swagger.dll": {
+          "lib/net8.0/Swashbuckle.AspNetCore.Swagger.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net6.0/Swashbuckle.AspNetCore.Swagger.dll": {
+          "lib/net8.0/Swashbuckle.AspNetCore.Swagger.dll": {
             "related": ".pdb;.xml"
           }
         },
@@ -2673,31 +2669,31 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "Swashbuckle.AspNetCore.SwaggerGen/6.4.0": {
+      "Swashbuckle.AspNetCore.SwaggerGen/6.6.2": {
         "type": "package",
         "dependencies": {
-          "Swashbuckle.AspNetCore.Swagger": "6.4.0"
+          "Swashbuckle.AspNetCore.Swagger": "6.6.2"
         },
         "compile": {
-          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
+          "lib/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
+          "lib/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
             "related": ".pdb;.xml"
           }
         }
       },
-      "Swashbuckle.AspNetCore.SwaggerUI/6.4.0": {
+      "Swashbuckle.AspNetCore.SwaggerUI/6.6.2": {
         "type": "package",
         "compile": {
-          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
+          "lib/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
+          "lib/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
             "related": ".pdb;.xml"
           }
         },
@@ -4158,13 +4154,22 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "System.Threading.Tasks.Extensions/4.5.4": {
+      "System.Threading.Tasks.Extensions/4.3.0": {
         "type": "package",
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
+        },
         "compile": {
-          "ref/netcoreapp2.1/_._": {}
+          "lib/netstandard1.0/_._": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netcoreapp2.1/_._": {}
+          "lib/netstandard1.0/System.Threading.Tasks.Extensions.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Threading.Timer/4.3.0": {
@@ -4298,46 +4303,41 @@
     }
   },
   "libraries": {
-    "Autofac/8.0.0": {
-      "sha512": "qxVqJcl3fixxa5aZc9TmIuYTwooI9GCL5RzfUiTZtTlbAF3NcWz7bPeEyJEAyS/0qGhSyGnXeku2eiu/7L+3qw==",
+    "Autofac/6.4.0": {
+      "sha512": "tkFxl6wAPuwVhrlN8wuNADnd+k2tv4ReP7ZZSL0vjfcN0RcfC9v25ogxK6b03HC7D4NwWjSLf1G/zTG8Bw43wQ==",
       "type": "package",
-      "path": "autofac/8.0.0",
+      "path": "autofac/6.4.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
-        "autofac.8.0.0.nupkg.sha512",
+        "autofac.6.4.0.nupkg.sha512",
         "autofac.nuspec",
         "icon.png",
+        "lib/net5.0/Autofac.dll",
+        "lib/net5.0/Autofac.xml",
         "lib/net6.0/Autofac.dll",
         "lib/net6.0/Autofac.xml",
-        "lib/net7.0/Autofac.dll",
-        "lib/net7.0/Autofac.xml",
-        "lib/net8.0/Autofac.dll",
-        "lib/net8.0/Autofac.xml",
         "lib/netstandard2.0/Autofac.dll",
         "lib/netstandard2.0/Autofac.xml",
         "lib/netstandard2.1/Autofac.dll",
         "lib/netstandard2.1/Autofac.xml"
       ]
     },
-    "Autofac.Extensions.DependencyInjection/9.0.0": {
-      "sha512": "tf+//4MBola256qaaVQqQ6tx2R57S8A8BFekRWNpHkpSFzRBPkU+/fEDUSrCjqldK/B2zRoDbsMcQmYy3PYGWg==",
+    "Autofac.Extensions.DependencyInjection/8.0.0": {
+      "sha512": "nGrXNpQX2FiZpIBydK9cxZnnoqP/cUd3k/53uRERYEqLtWzKtE15R6L+j5q5ax5Rv/+3wAIkOaPePkahfqrwjg==",
       "type": "package",
-      "path": "autofac.extensions.dependencyinjection/9.0.0",
+      "path": "autofac.extensions.dependencyinjection/8.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "README.md",
-        "autofac.extensions.dependencyinjection.9.0.0.nupkg.sha512",
+        "autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
         "autofac.extensions.dependencyinjection.nuspec",
         "icon.png",
+        "lib/net5.0/Autofac.Extensions.DependencyInjection.dll",
+        "lib/net5.0/Autofac.Extensions.DependencyInjection.xml",
         "lib/net6.0/Autofac.Extensions.DependencyInjection.dll",
         "lib/net6.0/Autofac.Extensions.DependencyInjection.xml",
-        "lib/net7.0/Autofac.Extensions.DependencyInjection.dll",
-        "lib/net7.0/Autofac.Extensions.DependencyInjection.xml",
-        "lib/net8.0/Autofac.Extensions.DependencyInjection.dll",
-        "lib/net8.0/Autofac.Extensions.DependencyInjection.xml",
         "lib/netstandard2.0/Autofac.Extensions.DependencyInjection.dll",
         "lib/netstandard2.0/Autofac.Extensions.DependencyInjection.xml",
         "lib/netstandard2.1/Autofac.Extensions.DependencyInjection.dll",
@@ -4441,16 +4441,16 @@
         "lib/netstandard2.1/DnsClient.xml"
       ]
     },
-    "Elastic.Apm/1.27.1": {
-      "sha512": "6DK41dm8LtCuBtw86QOt8zWP0GKjtwwbJbCzIrIGJ3skEwcibGwQhNDYmw/YfvEI0nVqVNi49C3jER2P2Msrig==",
+    "Elastic.Apm/1.28.0": {
+      "sha512": "HIhS9q/Q0oGbdV/RY4Y4SwXddddMcjFlEVks2jNldSW0imkifj9NtWGCaxU3dKdVHsYgdLawk8/cwHhb1zFRIQ==",
       "type": "package",
-      "path": "elastic.apm/1.27.1",
+      "path": "elastic.apm/1.28.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
         "NOTICE",
-        "elastic.apm.1.27.1.nupkg.sha512",
+        "elastic.apm.1.28.0.nupkg.sha512",
         "elastic.apm.nuspec",
         "lib/net462/Elastic.Apm.dll",
         "lib/net462/Elastic.Apm.pdb",
@@ -4467,15 +4467,15 @@
         "nuget-icon.png"
       ]
     },
-    "Elastic.Apm.AspNetCore/1.27.1": {
-      "sha512": "gaIY20m7xQrlmgftaZC39aR8RygQIsMY1I6pSeqNO+zcXSsduW0+IRgct1mAQljLjo/aTsEBw7t20Mwbl+r6dQ==",
+    "Elastic.Apm.AspNetCore/1.28.0": {
+      "sha512": "Noz2YooZm4K77X2q1lw9+DqzBcD0sE+woX+bgBXF88+wpICt8DgNAmEPOUJBM8hc2hwhA0osofGI1srwGzQ5tw==",
       "type": "package",
-      "path": "elastic.apm.aspnetcore/1.27.1",
+      "path": "elastic.apm.aspnetcore/1.28.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
-        "elastic.apm.aspnetcore.1.27.1.nupkg.sha512",
+        "elastic.apm.aspnetcore.1.28.0.nupkg.sha512",
         "elastic.apm.aspnetcore.nuspec",
         "lib/net6.0/Elastic.Apm.AspNetCore.dll",
         "lib/net6.0/Elastic.Apm.AspNetCore.pdb",
@@ -4489,15 +4489,15 @@
         "nuget-icon.png"
       ]
     },
-    "Elastic.Apm.Azure.CosmosDb/1.27.1": {
-      "sha512": "/9uAykDtAL7TkwYZlA/mzdQLh0u89OaPsiYo32C7TKLokL5ZRhkU1aJ02PSuyxn9LQOq6dKQ2b1Hy7KMfEGdIQ==",
+    "Elastic.Apm.Azure.CosmosDb/1.28.0": {
+      "sha512": "kFu2JhjcC10O5GkAgcupCazuYWaHKaYtdZrkngJbsYXqYP46NarFnUkng6INezP0Qjpi9W7T6hCODbKJB1vcIw==",
       "type": "package",
-      "path": "elastic.apm.azure.cosmosdb/1.27.1",
+      "path": "elastic.apm.azure.cosmosdb/1.28.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
-        "elastic.apm.azure.cosmosdb.1.27.1.nupkg.sha512",
+        "elastic.apm.azure.cosmosdb.1.28.0.nupkg.sha512",
         "elastic.apm.azure.cosmosdb.nuspec",
         "lib/netstandard2.0/Elastic.Apm.Azure.CosmosDb.dll",
         "lib/netstandard2.0/Elastic.Apm.Azure.CosmosDb.pdb",
@@ -4505,15 +4505,15 @@
         "nuget-icon.png"
       ]
     },
-    "Elastic.Apm.Azure.ServiceBus/1.27.1": {
-      "sha512": "6jvQHWJtAfcYpal35qc7WjpTEvASnhhs1UhINLcBDTGMOQJO6d6qV4O2gmt6KX0VUjqkbDyT2gzrAQgO7u1wmw==",
+    "Elastic.Apm.Azure.ServiceBus/1.28.0": {
+      "sha512": "ykbEi8VehfW2YdDrWCWlTCgSlDFUDlQOu4OTo1nQnoTS/jK3MEftFUzZesMcyMURU5ManJqKBUgfAypDpGsF7Q==",
       "type": "package",
-      "path": "elastic.apm.azure.servicebus/1.27.1",
+      "path": "elastic.apm.azure.servicebus/1.28.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
-        "elastic.apm.azure.servicebus.1.27.1.nupkg.sha512",
+        "elastic.apm.azure.servicebus.1.28.0.nupkg.sha512",
         "elastic.apm.azure.servicebus.nuspec",
         "lib/net6.0/Elastic.Apm.Azure.ServiceBus.dll",
         "lib/net6.0/Elastic.Apm.Azure.ServiceBus.pdb",
@@ -4524,15 +4524,15 @@
         "nuget-icon.png"
       ]
     },
-    "Elastic.Apm.Azure.Storage/1.27.1": {
-      "sha512": "8Fg+RZmPD4wL9pyQ1dYwyyOZQJHZWBGsk4DEgdfAnH7n5BrubAg1LD1dNAYCO2KKviZFzto/ojHHr10kWvqKEQ==",
+    "Elastic.Apm.Azure.Storage/1.28.0": {
+      "sha512": "ZhTmRywn8MeAMOS9sgaOcdg2NJDuyY3XFu8jitKr/XLr46jRt+RMJH1UpAezuFv+F4Pahi9Mgx6wxU8Uxq2U6w==",
       "type": "package",
-      "path": "elastic.apm.azure.storage/1.27.1",
+      "path": "elastic.apm.azure.storage/1.28.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
-        "elastic.apm.azure.storage.1.27.1.nupkg.sha512",
+        "elastic.apm.azure.storage.1.28.0.nupkg.sha512",
         "elastic.apm.azure.storage.nuspec",
         "lib/netstandard2.0/Elastic.Apm.Azure.Storage.dll",
         "lib/netstandard2.0/Elastic.Apm.Azure.Storage.pdb",
@@ -4540,15 +4540,15 @@
         "nuget-icon.png"
       ]
     },
-    "Elastic.Apm.Elasticsearch/1.27.1": {
-      "sha512": "RC4JFW0kmZZvWIk/djldcNNfFbJjr9y1xMQxVy+1VFyqJfXYtU0b79BSRW1Y79aKR1MiqnjhNDMharailCzBMw==",
+    "Elastic.Apm.Elasticsearch/1.28.0": {
+      "sha512": "CEfsBQdDb3fyWDnjwjdWwuHmh/YAGhnIJ0M0+qNpIsjKxfaFcg+7rIJZBf5Wssj3WLoIg519AHc5b9bWEj1ruw==",
       "type": "package",
-      "path": "elastic.apm.elasticsearch/1.27.1",
+      "path": "elastic.apm.elasticsearch/1.28.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
-        "elastic.apm.elasticsearch.1.27.1.nupkg.sha512",
+        "elastic.apm.elasticsearch.1.28.0.nupkg.sha512",
         "elastic.apm.elasticsearch.nuspec",
         "lib/netstandard2.0/Elastic.Apm.Elasticsearch.dll",
         "lib/netstandard2.0/Elastic.Apm.Elasticsearch.pdb",
@@ -4556,15 +4556,15 @@
         "nuget-icon.png"
       ]
     },
-    "Elastic.Apm.EntityFrameworkCore/1.27.1": {
-      "sha512": "Q8LZ5SUcrSWeuJBW/0Bn9KZhfiUhbaca1HuoRvC5oyyQYmW2u7wPV/RuXwVp5L5XpoxgBytuEo0/YkltHybDLg==",
+    "Elastic.Apm.EntityFrameworkCore/1.28.0": {
+      "sha512": "y+TOEmdIojtf1B/Eu8pn04ur1bSwrb1hWuuEqP+TwSOykNonjLuYr+aH/RHq0JhDukJk9IkjMGAjihPr/IZdjA==",
       "type": "package",
-      "path": "elastic.apm.entityframeworkcore/1.27.1",
+      "path": "elastic.apm.entityframeworkcore/1.28.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
-        "elastic.apm.entityframeworkcore.1.27.1.nupkg.sha512",
+        "elastic.apm.entityframeworkcore.1.28.0.nupkg.sha512",
         "elastic.apm.entityframeworkcore.nuspec",
         "lib/net6.0/Elastic.Apm.EntityFrameworkCore.dll",
         "lib/net6.0/Elastic.Apm.EntityFrameworkCore.pdb",
@@ -4575,15 +4575,15 @@
         "nuget-icon.png"
       ]
     },
-    "Elastic.Apm.Extensions.Hosting/1.27.1": {
-      "sha512": "ct7H3IxtWxCWGefLzaOfoJZkunuJURX19vy9+VulqPRmyBzm6iQmYzE8PglduCjUYPcen/SeO7xqSy4JHc94Dg==",
+    "Elastic.Apm.Extensions.Hosting/1.28.0": {
+      "sha512": "s9hYaT0P7lScUq6AFsLSSdAtppzQDcbpgGR+m6vAx9vqwqAN/oyop78R9rcwlgPcbaytzaFMIbuA6ctnNST7mQ==",
       "type": "package",
-      "path": "elastic.apm.extensions.hosting/1.27.1",
+      "path": "elastic.apm.extensions.hosting/1.28.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
-        "elastic.apm.extensions.hosting.1.27.1.nupkg.sha512",
+        "elastic.apm.extensions.hosting.1.28.0.nupkg.sha512",
         "elastic.apm.extensions.hosting.nuspec",
         "lib/net6.0/Elastic.Apm.Extensions.Hosting.dll",
         "lib/net6.0/Elastic.Apm.Extensions.Hosting.pdb",
@@ -4594,15 +4594,15 @@
         "nuget-icon.png"
       ]
     },
-    "Elastic.Apm.Extensions.Logging/1.27.1": {
-      "sha512": "AzuPk1Y9f2HhG3fzn0Vkhkjln0x1hzR8pfzRltUGYFxRu/q2yINOc2gUeH1w3p/xJMUaLwy+N7bHIehQAfSOyQ==",
+    "Elastic.Apm.Extensions.Logging/1.28.0": {
+      "sha512": "XLbsP7EqRCPinBPR3cVPD3jXYspnpxA+n0MTkvrgwRMSfPm4S9KJjArUB4BI24AW40koYtl4JOlLIoBRcOaUFg==",
       "type": "package",
-      "path": "elastic.apm.extensions.logging/1.27.1",
+      "path": "elastic.apm.extensions.logging/1.28.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
-        "elastic.apm.extensions.logging.1.27.1.nupkg.sha512",
+        "elastic.apm.extensions.logging.1.28.0.nupkg.sha512",
         "elastic.apm.extensions.logging.nuspec",
         "lib/net6.0/Elastic.Apm.Extensions.Logging.dll",
         "lib/net6.0/Elastic.Apm.Extensions.Logging.pdb",
@@ -4613,15 +4613,15 @@
         "nuget-icon.png"
       ]
     },
-    "Elastic.Apm.GrpcClient/1.27.1": {
-      "sha512": "TWkkAg51p6ZhwulKv++B6QhfwrVcdfOneKM7IRt9Xjdz/0yDOoc5hi85TDA10YnFJqdKzYFH8JVFvwaOcUFQUQ==",
+    "Elastic.Apm.GrpcClient/1.28.0": {
+      "sha512": "8hhQKP7T+COb/tqYAQ+wzlOATIbaSDKalaEqFHeWTMoIP4YRdgm39qh9psL+MK2eZYHMhiYZyTDCWcaWnMCXIg==",
       "type": "package",
-      "path": "elastic.apm.grpcclient/1.27.1",
+      "path": "elastic.apm.grpcclient/1.28.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
-        "elastic.apm.grpcclient.1.27.1.nupkg.sha512",
+        "elastic.apm.grpcclient.1.28.0.nupkg.sha512",
         "elastic.apm.grpcclient.nuspec",
         "lib/netstandard2.0/Elastic.Apm.GrpcClient.dll",
         "lib/netstandard2.0/Elastic.Apm.GrpcClient.pdb",
@@ -4629,16 +4629,16 @@
         "nuget-icon.png"
       ]
     },
-    "Elastic.Apm.MongoDb/1.27.1": {
-      "sha512": "whd8e8D7sEcPY9dVWFBa75sBuOf0asOcX+ez7Kvfc4syOJMK+U9GJylpPYUwHqV0yrGa88Wv81MApyGYomt0Ug==",
+    "Elastic.Apm.MongoDb/1.28.0": {
+      "sha512": "5GkIbk9UwkDVPzSyHsmVHKTinjwIvWP/h22mq6xptkDevAf2Pabrxy0X9dIeRQyA9Ya3t5iC93ngn0de9EgJ/w==",
       "type": "package",
-      "path": "elastic.apm.mongodb/1.27.1",
+      "path": "elastic.apm.mongodb/1.28.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
         "NOTICE",
-        "elastic.apm.mongodb.1.27.1.nupkg.sha512",
+        "elastic.apm.mongodb.1.28.0.nupkg.sha512",
         "elastic.apm.mongodb.nuspec",
         "lib/netstandard2.0/Elastic.Apm.MongoDb.dll",
         "lib/netstandard2.0/Elastic.Apm.MongoDb.pdb",
@@ -4646,15 +4646,15 @@
         "nuget-icon.png"
       ]
     },
-    "Elastic.Apm.NetCoreAll/1.27.1": {
-      "sha512": "TwsfaI+hjV9bxaqryRIsXGFNtLPWKFRcK3ci9GYX22PMs+4qM3NlOKMwvqGwPKX4hjm3hVAfVKZunRBQ7/e7Kw==",
+    "Elastic.Apm.NetCoreAll/1.28.0": {
+      "sha512": "pS0kP9ddc+tt1aBaU5PMBrFv3pPX4HJa8HeRuOPYB+E9eY1uLFjA1ERaJt4MPuyWEfrOMYr514om0bXjwpUXig==",
       "type": "package",
-      "path": "elastic.apm.netcoreall/1.27.1",
+      "path": "elastic.apm.netcoreall/1.28.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
-        "elastic.apm.netcoreall.1.27.1.nupkg.sha512",
+        "elastic.apm.netcoreall.1.28.0.nupkg.sha512",
         "elastic.apm.netcoreall.nuspec",
         "lib/net6.0/Elastic.Apm.NetCoreAll.dll",
         "lib/net6.0/Elastic.Apm.NetCoreAll.pdb",
@@ -6748,17 +6748,18 @@
         "microsoft.diasymreader.nuspec"
       ]
     },
-    "Microsoft.DotNet.Scaffolding.Shared/8.0.2": {
-      "sha512": "i5/LDhD47bqky2dQKm6qYOwoN+cUYwDBdpJSTeecbwAUqQA1owq81UUAh8sTo7ERhIj2SX9UCc1MIRaIkne9Ug==",
+    "Microsoft.DotNet.Scaffolding.Shared/8.0.3": {
+      "sha512": "EqyEIb/TFZF8w41rWJ0DQE12Rmtk54h2irt6LdIHEz+DR2Z7sbtXb8FDQ1mEncT1AaGC87HaWVztuz4xnCpiNA==",
       "type": "package",
-      "path": "microsoft.dotnet.scaffolding.shared/8.0.2",
+      "path": "microsoft.dotnet.scaffolding.shared/8.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
+        "NOTICE.txt",
         "lib/netstandard2.0/Microsoft.DotNet.Scaffolding.Shared.dll",
         "lib/netstandard2.0/Microsoft.DotNet.Scaffolding.Shared.xml",
-        "microsoft.dotnet.scaffolding.shared.8.0.2.nupkg.sha512",
+        "microsoft.dotnet.scaffolding.shared.8.0.3.nupkg.sha512",
         "microsoft.dotnet.scaffolding.shared.nuspec"
       ]
     },
@@ -7731,10 +7732,10 @@
         "runtime.json"
       ]
     },
-    "Microsoft.OpenApi/1.6.14": {
-      "sha512": "tTaBT8qjk3xINfESyOPE2rIellPvB7qpVqiWiyA/lACVvz+xOGiXhFUfohcx82NLbi5avzLW0lx+s6oAqQijfw==",
+    "Microsoft.OpenApi/1.6.15": {
+      "sha512": "6w8KcyySsOf5w+ql8K/+2qct2gHkkPRq7i1VvAyvFwpgBFgZVFYK5yUOEFyyTmVT4OTkpRgr1Hy432BHC2tamg==",
       "type": "package",
-      "path": "microsoft.openapi/1.6.14",
+      "path": "microsoft.openapi/1.6.15",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7742,101 +7743,107 @@
         "lib/netstandard2.0/Microsoft.OpenApi.dll",
         "lib/netstandard2.0/Microsoft.OpenApi.pdb",
         "lib/netstandard2.0/Microsoft.OpenApi.xml",
-        "microsoft.openapi.1.6.14.nupkg.sha512",
+        "microsoft.openapi.1.6.15.nupkg.sha512",
         "microsoft.openapi.nuspec"
       ]
     },
-    "Microsoft.VisualStudio.Web.CodeGeneration/8.0.2": {
-      "sha512": "SSHxLQVxaSSLBDHnCwEU3LFcxKfhdC0i6xi+XMaF0lI++zy1SKdMRxgDSn9TEcSCAYNFAoEf28Y0hiYG2NgU5Q==",
+    "Microsoft.VisualStudio.Web.CodeGeneration/8.0.3": {
+      "sha512": "32REt5n4SGgY9yriwOj/xHw4HjAeKZXGHoNJkDkrIXvYM0tXnZlTuIjlA3iKmlrjYm7DrRx6wdC5zJTMzAjF5g==",
       "type": "package",
-      "path": "microsoft.visualstudio.web.codegeneration/8.0.2",
+      "path": "microsoft.visualstudio.web.codegeneration/8.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
+        "NOTICE.txt",
         "lib/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.dll",
         "lib/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.xml",
-        "microsoft.visualstudio.web.codegeneration.8.0.2.nupkg.sha512",
+        "microsoft.visualstudio.web.codegeneration.8.0.3.nupkg.sha512",
         "microsoft.visualstudio.web.codegeneration.nuspec"
       ]
     },
-    "Microsoft.VisualStudio.Web.CodeGeneration.Core/8.0.2": {
-      "sha512": "BLfPR0G/RnsJaoSYJ2YTXkJYwKroozZlLrOiBrcBKmcC/P5HUPxEUwOXyx9YcPBY3Rcnb9qM2FqficRUKSJrow==",
+    "Microsoft.VisualStudio.Web.CodeGeneration.Core/8.0.3": {
+      "sha512": "uZ/qjwrxfW7rCKFT3jCCiScWAqUpiWeCFL563jH2z+H7fGrWiufeXLyt8pykBYSZH0vp7zdYZQsC6d56Ti7t4A==",
       "type": "package",
-      "path": "microsoft.visualstudio.web.codegeneration.core/8.0.2",
+      "path": "microsoft.visualstudio.web.codegeneration.core/8.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
+        "NOTICE.txt",
         "lib/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll",
         "lib/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.Core.xml",
-        "microsoft.visualstudio.web.codegeneration.core.8.0.2.nupkg.sha512",
+        "microsoft.visualstudio.web.codegeneration.core.8.0.3.nupkg.sha512",
         "microsoft.visualstudio.web.codegeneration.core.nuspec"
       ]
     },
-    "Microsoft.VisualStudio.Web.CodeGeneration.Design/8.0.2": {
-      "sha512": "fjFXiOESjrtJf71lH7RmD66kw03pEY/FUYC3MQdhgUk0vvDCxHy8WgRw+NRtid6Tcng+uzrtZz6DS9ojiQBJVg==",
+    "Microsoft.VisualStudio.Web.CodeGeneration.Design/8.0.3": {
+      "sha512": "l1n9GNoaaEh+KY+3E5HXl9Yo9u9UwM2ThHLvpsB3UgNottNLUgYFuhhlvUOcsapccHkiMrp1b6l/jSpQ/8D1Ug==",
       "type": "package",
-      "path": "microsoft.visualstudio.web.codegeneration.design/8.0.2",
+      "path": "microsoft.visualstudio.web.codegeneration.design/8.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
+        "NOTICE.txt",
         "README.md",
         "lib/net8.0/dotnet-aspnet-codegenerator-design.dll",
         "lib/net8.0/dotnet-aspnet-codegenerator-design.xml",
-        "microsoft.visualstudio.web.codegeneration.design.8.0.2.nupkg.sha512",
+        "microsoft.visualstudio.web.codegeneration.design.8.0.3.nupkg.sha512",
         "microsoft.visualstudio.web.codegeneration.design.nuspec"
       ]
     },
-    "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore/8.0.2": {
-      "sha512": "Ntm4auQ+35W5rLtU7/mBvdDpOyGndshgl+cT39ZdhmPue25LExnpM5morHI8atAourzflW2iKLniSHDO+MFp7A==",
+    "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore/8.0.3": {
+      "sha512": "4XxIudIGf7lXLPyB0QAYBrh4jRmcOavp7bYcaHXoAisAzgRPoS7vYDDiU7yjwkXWOLTuWsOJbiobN4OuSTdq8g==",
       "type": "package",
-      "path": "microsoft.visualstudio.web.codegeneration.entityframeworkcore/8.0.2",
+      "path": "microsoft.visualstudio.web.codegeneration.entityframeworkcore/8.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
+        "NOTICE.txt",
         "Templates/DbContext/NewLocalDbContext.cshtml",
         "lib/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll",
         "lib/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.runtimeconfig.json",
         "lib/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.xml",
-        "microsoft.visualstudio.web.codegeneration.entityframeworkcore.8.0.2.nupkg.sha512",
+        "microsoft.visualstudio.web.codegeneration.entityframeworkcore.8.0.3.nupkg.sha512",
         "microsoft.visualstudio.web.codegeneration.entityframeworkcore.nuspec"
       ]
     },
-    "Microsoft.VisualStudio.Web.CodeGeneration.Templating/8.0.2": {
-      "sha512": "FbDuPL0FipMA7bIsVu3A2O/FZO12OC5qcKS4Jpa6SrITsUEPnhACw6PQzEGWDZADjbGCfS/boXk71+ZMGfoGTA==",
+    "Microsoft.VisualStudio.Web.CodeGeneration.Templating/8.0.3": {
+      "sha512": "DLI1WO2kf0Htd4WXux9QtMIuLpsZiSY9GzxXSGgdXhBkqM+Ya1ctckhX29YCt1djoigmpiVdFuasqO/thqE4aA==",
       "type": "package",
-      "path": "microsoft.visualstudio.web.codegeneration.templating/8.0.2",
+      "path": "microsoft.visualstudio.web.codegeneration.templating/8.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
+        "NOTICE.txt",
         "lib/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll",
         "lib/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.Templating.xml",
-        "microsoft.visualstudio.web.codegeneration.templating.8.0.2.nupkg.sha512",
+        "microsoft.visualstudio.web.codegeneration.templating.8.0.3.nupkg.sha512",
         "microsoft.visualstudio.web.codegeneration.templating.nuspec"
       ]
     },
-    "Microsoft.VisualStudio.Web.CodeGeneration.Utils/8.0.2": {
-      "sha512": "6MXYWzwosx8UUw5IlTpa5WXIPO0Kjmz1VJJAipudiLtVeSQ4RAAfj6yKEWXkKlBVoiYbLk6I/Sw2J8hO915xHA==",
+    "Microsoft.VisualStudio.Web.CodeGeneration.Utils/8.0.3": {
+      "sha512": "3OOtXh9qezGXxJDHl4lM29rWrkK1dK4Ccg2EGImplMCLLe5jlCbvXWodQjg+7CPyi8vGPUMh3yttDtkMB3sjew==",
       "type": "package",
-      "path": "microsoft.visualstudio.web.codegeneration.utils/8.0.2",
+      "path": "microsoft.visualstudio.web.codegeneration.utils/8.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
+        "NOTICE.txt",
         "lib/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll",
         "lib/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.Utils.xml",
-        "microsoft.visualstudio.web.codegeneration.utils.8.0.2.nupkg.sha512",
+        "microsoft.visualstudio.web.codegeneration.utils.8.0.3.nupkg.sha512",
         "microsoft.visualstudio.web.codegeneration.utils.nuspec"
       ]
     },
-    "Microsoft.VisualStudio.Web.CodeGenerators.Mvc/8.0.2": {
-      "sha512": "eRn0vFzk+B/TIqrf3a4cOuU3HqwNweAGeuF53/X5nK+DKsjM0w8tjA5YxZKEONapM2E6YTKlZtKqXXs4oufRdQ==",
+    "Microsoft.VisualStudio.Web.CodeGenerators.Mvc/8.0.3": {
+      "sha512": "S2I0UeCbaHYYrnFRum8z0VXoKMh79nT2OrR9rHVZ0EG2AkEcwkglkjul52gtS/py66oB5leGOxPQgFMPjhs8RQ==",
       "type": "package",
-      "path": "microsoft.visualstudio.web.codegenerators.mvc/8.0.2",
+      "path": "microsoft.visualstudio.web.codegenerators.mvc/8.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7849,6 +7856,7 @@
         "Generators/ParameterDefinitions/razorpage.json",
         "Generators/ParameterDefinitions/view.json",
         "Icon.png",
+        "NOTICE.txt",
         "Templates/Blazor/Create.tt",
         "Templates/Blazor/Delete.tt",
         "Templates/Blazor/Details.tt",
@@ -8352,7 +8360,7 @@
         "lib/net8.0/bootstrap5_identitygeneratorfilesconfig.json",
         "lib/net8.0/identityMinimalHostingChanges.json",
         "lib/net8.0/minimalApiChanges.json",
-        "microsoft.visualstudio.web.codegenerators.mvc.8.0.2.nupkg.sha512",
+        "microsoft.visualstudio.web.codegenerators.mvc.8.0.3.nupkg.sha512",
         "microsoft.visualstudio.web.codegenerators.mvc.nuspec"
       ]
     },
@@ -8997,22 +9005,22 @@
         "snappier.nuspec"
       ]
     },
-    "Swashbuckle.AspNetCore/6.4.0": {
-      "sha512": "eUBr4TW0up6oKDA5Xwkul289uqSMgY0xGN4pnbOIBqCcN9VKGGaPvHX3vWaG/hvocfGDP+MGzMA0bBBKz2fkmQ==",
+    "Swashbuckle.AspNetCore/6.6.2": {
+      "sha512": "+NB4UYVYN6AhDSjW0IJAd1AGD8V33gemFNLPaxKTtPkHB+HaKAKf9MGAEUPivEWvqeQfcKIw8lJaHq6LHljRuw==",
       "type": "package",
-      "path": "swashbuckle.aspnetcore/6.4.0",
+      "path": "swashbuckle.aspnetcore/6.6.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "build/Swashbuckle.AspNetCore.props",
-        "swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+        "swashbuckle.aspnetcore.6.6.2.nupkg.sha512",
         "swashbuckle.aspnetcore.nuspec"
       ]
     },
-    "Swashbuckle.AspNetCore.Swagger/6.4.0": {
-      "sha512": "nl4SBgGM+cmthUcpwO/w1lUjevdDHAqRvfUoe4Xp/Uvuzt9mzGUwyFCqa3ODBAcZYBiFoKvrYwz0rabslJvSmQ==",
+    "Swashbuckle.AspNetCore.Swagger/6.6.2": {
+      "sha512": "ovgPTSYX83UrQUWiS5vzDcJ8TEX1MAxBgDFMK45rC24MorHEPQlZAHlaXj/yth4Zf6xcktpUgTEBvffRQVwDKA==",
       "type": "package",
-      "path": "swashbuckle.aspnetcore.swagger/6.4.0",
+      "path": "swashbuckle.aspnetcore.swagger/6.6.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -9022,20 +9030,27 @@
         "lib/net6.0/Swashbuckle.AspNetCore.Swagger.dll",
         "lib/net6.0/Swashbuckle.AspNetCore.Swagger.pdb",
         "lib/net6.0/Swashbuckle.AspNetCore.Swagger.xml",
+        "lib/net7.0/Swashbuckle.AspNetCore.Swagger.dll",
+        "lib/net7.0/Swashbuckle.AspNetCore.Swagger.pdb",
+        "lib/net7.0/Swashbuckle.AspNetCore.Swagger.xml",
+        "lib/net8.0/Swashbuckle.AspNetCore.Swagger.dll",
+        "lib/net8.0/Swashbuckle.AspNetCore.Swagger.pdb",
+        "lib/net8.0/Swashbuckle.AspNetCore.Swagger.xml",
         "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.dll",
         "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.pdb",
         "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.xml",
         "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.dll",
         "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.pdb",
         "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.xml",
-        "swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+        "package-readme.md",
+        "swashbuckle.aspnetcore.swagger.6.6.2.nupkg.sha512",
         "swashbuckle.aspnetcore.swagger.nuspec"
       ]
     },
-    "Swashbuckle.AspNetCore.SwaggerGen/6.4.0": {
-      "sha512": "lXhcUBVqKrPFAQF7e/ZeDfb5PMgE8n5t6L5B6/BQSpiwxgHzmBcx8Msu42zLYFTvR5PIqE9Q9lZvSQAcwCxJjw==",
+    "Swashbuckle.AspNetCore.SwaggerGen/6.6.2": {
+      "sha512": "zv4ikn4AT1VYuOsDCpktLq4QDq08e7Utzbir86M5/ZkRaLXbCPF11E1/vTmOiDzRTl0zTZINQU2qLKwTcHgfrA==",
       "type": "package",
-      "path": "swashbuckle.aspnetcore.swaggergen/6.4.0",
+      "path": "swashbuckle.aspnetcore.swaggergen/6.6.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -9045,20 +9060,27 @@
         "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
         "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.pdb",
         "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
+        "lib/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
+        "lib/net7.0/Swashbuckle.AspNetCore.SwaggerGen.pdb",
+        "lib/net7.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
+        "lib/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
+        "lib/net8.0/Swashbuckle.AspNetCore.SwaggerGen.pdb",
+        "lib/net8.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
         "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
         "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.pdb",
         "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
         "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
         "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerGen.pdb",
         "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
-        "swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+        "package-readme.md",
+        "swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggergen.nuspec"
       ]
     },
-    "Swashbuckle.AspNetCore.SwaggerUI/6.4.0": {
-      "sha512": "1Hh3atb3pi8c+v7n4/3N80Jj8RvLOXgWxzix6w3OZhB7zBGRwsy7FWr4e3hwgPweSBpwfElqj4V4nkjYabH9nQ==",
+    "Swashbuckle.AspNetCore.SwaggerUI/6.6.2": {
+      "sha512": "mBBb+/8Hm2Q3Wygag+hu2jj69tZW5psuv0vMRXY07Wy+Rrj40vRP8ZTbKBhs91r45/HXT4aY4z0iSBYx1h6JvA==",
       "type": "package",
-      "path": "swashbuckle.aspnetcore.swaggerui/6.4.0",
+      "path": "swashbuckle.aspnetcore.swaggerui/6.6.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -9068,13 +9090,20 @@
         "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
         "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.pdb",
         "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
+        "lib/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
+        "lib/net7.0/Swashbuckle.AspNetCore.SwaggerUI.pdb",
+        "lib/net7.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
+        "lib/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
+        "lib/net8.0/Swashbuckle.AspNetCore.SwaggerUI.pdb",
+        "lib/net8.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
         "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
         "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.pdb",
         "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
         "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
         "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerUI.pdb",
         "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
-        "swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
+        "package-readme.md",
+        "swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
@@ -12706,41 +12735,21 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Threading.Tasks.Extensions/4.5.4": {
-      "sha512": "zteT+G8xuGu6mS+mzDzYXbzS7rd3K6Fjb9RiZlYlJPam2/hU7JCBZBVEcywNuR+oZ1ncTvc/cq0faRr3P01OVg==",
+    "System.Threading.Tasks.Extensions/4.3.0": {
+      "sha512": "npvJkVKl5rKXrtl1Kkm6OhOUaYGEiF9wFbppFRWSMoApKzt2PiPHT2Bb8a5sAWxprvdOAtvaARS9QYMznEUtug==",
       "type": "package",
-      "path": "system.threading.tasks.extensions/4.5.4",
+      "path": "system.threading.tasks.extensions/4.3.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/MonoAndroid10/_._",
-        "lib/MonoTouch10/_._",
-        "lib/net461/System.Threading.Tasks.Extensions.dll",
-        "lib/net461/System.Threading.Tasks.Extensions.xml",
-        "lib/netcoreapp2.1/_._",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
         "lib/netstandard1.0/System.Threading.Tasks.Extensions.dll",
         "lib/netstandard1.0/System.Threading.Tasks.Extensions.xml",
-        "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll",
-        "lib/netstandard2.0/System.Threading.Tasks.Extensions.xml",
         "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll",
         "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.xml",
-        "lib/xamarinios10/_._",
-        "lib/xamarinmac20/_._",
-        "lib/xamarintvos10/_._",
-        "lib/xamarinwatchos10/_._",
-        "ref/MonoAndroid10/_._",
-        "ref/MonoTouch10/_._",
-        "ref/netcoreapp2.1/_._",
-        "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._",
-        "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._",
-        "system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-        "system.threading.tasks.extensions.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
+        "system.threading.tasks.extensions.4.3.0.nupkg.sha512",
+        "system.threading.tasks.extensions.nuspec"
       ]
     },
     "System.Threading.Timer/4.3.0": {
@@ -12993,16 +13002,16 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Autofac.Extensions.DependencyInjection >= 9.0.0",
-      "Elastic.Apm.NetCoreAll >= 1.27.1",
+      "Autofac.Extensions.DependencyInjection >= 8.0.0",
+      "Elastic.Apm.NetCoreAll >= 1.28.0",
       "Master.Rotas.Dominio >= 1.0.0",
       "Master.Rotas.Infra >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.Versioning >= 5.1.0",
       "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer >= 5.1.0",
       "Microsoft.Extensions.PlatformAbstractions >= 1.1.0",
-      "Microsoft.OpenApi >= 1.6.14",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.2",
-      "Swashbuckle.AspNetCore >= 6.4.0"
+      "Microsoft.OpenApi >= 1.6.15",
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.3",
+      "Swashbuckle.AspNetCore >= 6.6.2"
     ]
   },
   "packageFolders": {
@@ -13011,11 +13020,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Workspace\\ALINE PESSOAL\\EXAms\\master\\MasterRotas\\MasterRotas.csproj",
+      "projectUniqueName": "C:\\KChallanger\\Backend\\MasterRotas\\MasterRotas.csproj",
       "projectName": "MasterRotas",
-      "projectPath": "C:\\Workspace\\ALINE PESSOAL\\EXAms\\master\\MasterRotas\\MasterRotas.csproj",
+      "projectPath": "C:\\KChallanger\\Backend\\MasterRotas\\MasterRotas.csproj",
       "packagesPath": "C:\\Users\\Consultor\\.nuget\\packages\\",
-      "outputPath": "C:\\Workspace\\ALINE PESSOAL\\EXAms\\master\\MasterRotas\\obj\\",
+      "outputPath": "C:\\KChallanger\\Backend\\MasterRotas\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Consultor\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -13032,11 +13041,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Workspace\\ALINE PESSOAL\\EXAms\\master\\Master.Rotas.Dominio\\Master.Rotas.Dominio.csproj": {
-              "projectPath": "C:\\Workspace\\ALINE PESSOAL\\EXAms\\master\\Master.Rotas.Dominio\\Master.Rotas.Dominio.csproj"
+            "C:\\KChallanger\\Backend\\Master.Rotas.Dominio\\Master.Rotas.Dominio.csproj": {
+              "projectPath": "C:\\KChallanger\\Backend\\Master.Rotas.Dominio\\Master.Rotas.Dominio.csproj"
             },
-            "C:\\Workspace\\ALINE PESSOAL\\EXAms\\master\\Master.Rotas.Infra\\Master.Rotas.Infra.csproj": {
-              "projectPath": "C:\\Workspace\\ALINE PESSOAL\\EXAms\\master\\Master.Rotas.Infra\\Master.Rotas.Infra.csproj"
+            "C:\\KChallanger\\Backend\\Master.Rotas.Infra\\Master.Rotas.Infra.csproj": {
+              "projectPath": "C:\\KChallanger\\Backend\\Master.Rotas.Infra\\Master.Rotas.Infra.csproj"
             }
           }
         }
@@ -13058,11 +13067,11 @@
         "dependencies": {
           "Autofac.Extensions.DependencyInjection": {
             "target": "Package",
-            "version": "[9.0.0, )"
+            "version": "[8.0.0, )"
           },
           "Elastic.Apm.NetCoreAll": {
             "target": "Package",
-            "version": "[1.27.1, )"
+            "version": "[1.28.0, )"
           },
           "Microsoft.AspNetCore.Mvc.Versioning": {
             "target": "Package",
@@ -13078,15 +13087,15 @@
           },
           "Microsoft.OpenApi": {
             "target": "Package",
-            "version": "[1.6.14, )"
+            "version": "[1.6.15, )"
           },
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
-            "version": "[8.0.2, )"
+            "version": "[8.0.3, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
-            "version": "[6.4.0, )"
+            "version": "[6.6.2, )"
           }
         },
         "imports": [

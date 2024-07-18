@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Workspace\\KC\\Back\\Master.Rotas.Dominio\\Master.Rotas.Dominio.csproj": {}
+    "C:\\KChallanger\\Backend\\Master.Rotas.Dominio\\Master.Rotas.Dominio.csproj": {}
   },
   "projects": {
-    "C:\\Workspace\\KC\\Back\\Master.Rotas.Dominio\\Master.Rotas.Dominio.csproj": {
+    "C:\\KChallanger\\Backend\\Master.Rotas.Dominio\\Master.Rotas.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Workspace\\KC\\Back\\Master.Rotas.Dominio\\Master.Rotas.Dominio.csproj",
+        "projectUniqueName": "C:\\KChallanger\\Backend\\Master.Rotas.Dominio\\Master.Rotas.Dominio.csproj",
         "projectName": "Master.Rotas.Dominio",
-        "projectPath": "C:\\Workspace\\KC\\Back\\Master.Rotas.Dominio\\Master.Rotas.Dominio.csproj",
+        "projectPath": "C:\\KChallanger\\Backend\\Master.Rotas.Dominio\\Master.Rotas.Dominio.csproj",
         "packagesPath": "C:\\Users\\Consultor\\.nuget\\packages\\",
-        "outputPath": "C:\\Workspace\\KC\\Back\\Master.Rotas.Dominio\\obj\\",
+        "outputPath": "C:\\KChallanger\\Backend\\Master.Rotas.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Consultor\\AppData\\Roaming\\NuGet\\NuGet.Config",

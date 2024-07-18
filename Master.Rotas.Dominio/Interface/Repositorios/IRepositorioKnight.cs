@@ -7,7 +7,6 @@ namespace Master.Rotas.Dominio.Interface.Repositorios
     {
         Task<KnightEntidade> Incluir(KnightEntidade knightEntidade);
         Task<KnightEntidade> Alterar(KnightEntidade knightEntidade);        
-        IEnumerable<KnightDto> Obter(string id);
-        //void Excluir(string id);
+        IEnumerable<KnightDto> Obter(string id);        
     }
 }

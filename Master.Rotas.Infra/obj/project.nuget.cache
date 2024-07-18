@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5a1GFnGiiCiPVlqK6XI2LBXO+IWMJrWLXmSdzO9tfOtG3yE5DwQzGbZL8Dug5hVfjlDqHXRfN5MjRFyJ35uWRw==",
+  "dgSpecHash": "2iZu/02UZ1YCAMUQEJy5Ie4rAsVCcXhYwJgrNEHh8Iw0RDJ8UIiwdgy3z587RPZVjSWdDxNiIRjRskzkHYJ0MQ==",
   "success": true,
-  "projectFilePath": "C:\\Workspace\\KC\\Back\\Master.Rotas.Infra\\Master.Rotas.Infra.csproj",
+  "projectFilePath": "C:\\KChallanger\\Backend\\Master.Rotas.Infra\\Master.Rotas.Infra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Consultor\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
     "C:\\Users\\Consultor\\.nuget\\packages\\fluentvalidation\\11.9.1\\fluentvalidation.11.9.1.nupkg.sha512",

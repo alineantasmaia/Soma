@@ -48,8 +48,9 @@ namespace Master.Rotas
                     return result;
                 };
             });
+
             //Now
-            //services.AddControllers();
+            services.AddControllers();
             //services.AddEndpointsApiExplorer();
             //services.AddSwaggerGen();
 
