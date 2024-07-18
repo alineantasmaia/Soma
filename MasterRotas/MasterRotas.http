@@ -1,0 +1,8 @@
+@MasterRotas_HostAddress = http://localhost:5270
+
+
+GET {{MasterRotas_HostAddress}}/Knight/
+
+Accept: application/json
+
+###
