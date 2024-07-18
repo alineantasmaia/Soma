@@ -1,5 +1,4 @@
-﻿using Master.Rotas.Dominio.Dto;
-using Master.Rotas.Dominio.Entidade;
+﻿using Master.Rotas.Dominio.Entidade;
 
 namespace Master.Rotas.Dominio.Interface.Repositorios
 {

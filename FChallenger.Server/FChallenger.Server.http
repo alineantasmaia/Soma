@@ -1,0 +1,8 @@
+@FChallenger.Server_HostAddress = http://localhost:5194
+
+
+GET {{FChallenger.Server_HostAddress}}/knight/
+
+Accept: application/json
+
+###

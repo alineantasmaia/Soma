@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Master.Rotas.Infra", "Maste
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasterRotas", "MasterRotas\MasterRotas.csproj", "{DE0A9684-5A35-4D97-831F-E158A061F886}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FChallenger.Server", "..\Frontend\FChallenger.Server\FChallenger.Server.csproj", "{5DDC458D-CEC2-47EF-86E6-F588B726F047}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "fchallenger.client", "..\Frontend\fchallenger.client\fchallenger.client.esproj", "{F530EDA1-D864-4921-962B-F782AEE893AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,16 @@ Global
 		{DE0A9684-5A35-4D97-831F-E158A061F886}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE0A9684-5A35-4D97-831F-E158A061F886}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE0A9684-5A35-4D97-831F-E158A061F886}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DDC458D-CEC2-47EF-86E6-F588B726F047}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DDC458D-CEC2-47EF-86E6-F588B726F047}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DDC458D-CEC2-47EF-86E6-F588B726F047}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DDC458D-CEC2-47EF-86E6-F588B726F047}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F530EDA1-D864-4921-962B-F782AEE893AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F530EDA1-D864-4921-962B-F782AEE893AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F530EDA1-D864-4921-962B-F782AEE893AD}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F530EDA1-D864-4921-962B-F782AEE893AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F530EDA1-D864-4921-962B-F782AEE893AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F530EDA1-D864-4921-962B-F782AEE893AD}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Master.Rotas.Dominio.Dto;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -16,6 +12,12 @@ namespace Master.Rotas.Dominio.Entidade
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Column("ID")]
-        public override decimal Id { get; set; }        
+        public override decimal Id { get; set; }
+        public string name { get; set; }
+        public string nickname { get; set; }
+        public decimal birthday { get; set; }
+        public List<WeaponsDto> weapons { get; set; }
+        public List<AttributesDto> atributes { get; set; }
+        public decimal keyAttribute { get { return new AttributesDto().strenght; } }
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MasterRotas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4320bb6e85e1d5c7589073077c5494f0b5d31de1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8628e15ec2ba04ea6e6ce60729d53f65b45f2ad4")]
 [assembly: System.Reflection.AssemblyProductAttribute("MasterRotas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MasterRotas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
