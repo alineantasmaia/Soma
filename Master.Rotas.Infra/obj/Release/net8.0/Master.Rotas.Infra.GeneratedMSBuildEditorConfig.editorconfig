@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Master.Rotas.Infra
-build_property.ProjectDir = C:\Workspace\KC\Back\soma\Master.Rotas.Infra\
+build_property.ProjectDir = C:\KChallanger\Backend\Master.Rotas.Infra\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
