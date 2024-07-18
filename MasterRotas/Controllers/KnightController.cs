@@ -16,11 +16,11 @@ namespace MasterRotas.Controllers
         }
 
         [HttpGet("/Knights")]
-        public IActionResult Knights()
+        public async Task<IActionResult> Knights()
         {
             try
             {
-                return Ok(_servicoKnight.Obter(""));
+                return Ok(await _servicoKnight.Obter(""));
             }
             catch (Exception ex)
             {

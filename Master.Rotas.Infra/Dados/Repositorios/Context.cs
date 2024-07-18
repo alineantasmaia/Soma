@@ -16,6 +16,7 @@ namespace Master.Rotas.Infra.Dados.Repositorios
 
         public Context(IOptions<Settings> options) 
         {
+            options.Value.ConnectionString = "mongodb://admin:root@localhost";
             _client = new MongoClient(options.Value.ConnectionString);
             if (options.Value != null )
             {
