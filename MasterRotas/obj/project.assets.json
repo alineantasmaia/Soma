@@ -13011,11 +13011,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Workspace\\ALINE PESSOAL\\EXAms\\master\\MasterRotas\\MasterRotas.csproj",
+      "projectUniqueName": "C:\\KChallanger\\Backend\\MasterRotas\\MasterRotas.csproj",
       "projectName": "MasterRotas",
-      "projectPath": "C:\\Workspace\\ALINE PESSOAL\\EXAms\\master\\MasterRotas\\MasterRotas.csproj",
+      "projectPath": "C:\\KChallanger\\Backend\\MasterRotas\\MasterRotas.csproj",
       "packagesPath": "C:\\Users\\Consultor\\.nuget\\packages\\",
-      "outputPath": "C:\\Workspace\\ALINE PESSOAL\\EXAms\\master\\MasterRotas\\obj\\",
+      "outputPath": "C:\\KChallanger\\Backend\\MasterRotas\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Consultor\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -13032,11 +13032,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Workspace\\ALINE PESSOAL\\EXAms\\master\\Master.Rotas.Dominio\\Master.Rotas.Dominio.csproj": {
-              "projectPath": "C:\\Workspace\\ALINE PESSOAL\\EXAms\\master\\Master.Rotas.Dominio\\Master.Rotas.Dominio.csproj"
+            "C:\\KChallanger\\Backend\\Master.Rotas.Dominio\\Master.Rotas.Dominio.csproj": {
+              "projectPath": "C:\\KChallanger\\Backend\\Master.Rotas.Dominio\\Master.Rotas.Dominio.csproj"
             },
-            "C:\\Workspace\\ALINE PESSOAL\\EXAms\\master\\Master.Rotas.Infra\\Master.Rotas.Infra.csproj": {
-              "projectPath": "C:\\Workspace\\ALINE PESSOAL\\EXAms\\master\\Master.Rotas.Infra\\Master.Rotas.Infra.csproj"
+            "C:\\KChallanger\\Backend\\Master.Rotas.Infra\\Master.Rotas.Infra.csproj": {
+              "projectPath": "C:\\KChallanger\\Backend\\Master.Rotas.Infra\\Master.Rotas.Infra.csproj"
             }
           }
         }

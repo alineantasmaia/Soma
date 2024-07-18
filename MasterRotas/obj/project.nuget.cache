@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UzjpW0CIVLeWlq+lneSSKQLfEJNZCyoR3/ekLkEv0nGN6Q5r0PoQ7rynlqrjkqnRz73jVC6nmrN8qk1Z/0VzAw==",
+  "dgSpecHash": "U0i+w0ZCgQGLDoZWCwO0uULwbD8XjkswvcQHOCyWb2BEJ7Wiz5utSFq2pmzlWEVLhOIhmj6Bfpb7yJm4n2zldg==",
   "success": true,
-  "projectFilePath": "C:\\Workspace\\ALINE PESSOAL\\EXAms\\master\\MasterRotas\\MasterRotas.csproj",
+  "projectFilePath": "C:\\KChallanger\\Backend\\MasterRotas\\MasterRotas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Consultor\\.nuget\\packages\\autofac\\8.0.0\\autofac.8.0.0.nupkg.sha512",
     "C:\\Users\\Consultor\\.nuget\\packages\\autofac.extensions.dependencyinjection\\9.0.0\\autofac.extensions.dependencyinjection.9.0.0.nupkg.sha512",

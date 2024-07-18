@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Master.Rotas.Dominio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b9e6fea425848eaa5c4a57ec95d12e0faecefeb6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43fa8af4bd74769a01fa3b58fbbefcf95edade4e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Master.Rotas.Dominio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Master.Rotas.Dominio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
