@@ -15,6 +15,9 @@ using System;
 using System.Net.Http.Headers;
 using System.Net.Mime;
 using Microsoft.Extensions.Options;
+using Master.Rotas.Infra.Dados.Repositorios;
+using System.Configuration;
+using Master.Rotas.Dominio.Interface.Repositorios;
 
 
 namespace Master.Rotas
@@ -50,7 +53,7 @@ namespace Master.Rotas
             });
 
             //Now
-            services.AddControllers();
+            //services.AddControllers();
             //services.AddEndpointsApiExplorer();
             //services.AddSwaggerGen();
 
@@ -66,7 +69,14 @@ namespace Master.Rotas
                 });
             });
 
-            services.Configure<IConfiguration>(_configuracao);
+            //services.Configure<IConfiguration>(_configuracao);
+            services.Configure<Settings>(options =>
+            {
+                options.ConnectionString = _configuracao.GetSection("MongoConnection:ConnectionString").Value;
+                options.Database = _configuracao.GetSection("MongoConnection:Database").Value;
+            });
+            services.AddScoped<IRepositorioKnight, RepositorioKnight>();
+            //services.AddRazorPages();
 
             services.AddHttpClient("EnvioApi", cliente =>
             {

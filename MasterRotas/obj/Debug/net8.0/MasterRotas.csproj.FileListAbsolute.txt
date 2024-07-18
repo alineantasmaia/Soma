@@ -1061,3 +1061,4 @@ C:\KChallanger\Backend\MasterRotas\obj\Debug\net8.0\refint\MasterRotas.dll
 C:\KChallanger\Backend\MasterRotas\obj\Debug\net8.0\MasterRotas.pdb
 C:\KChallanger\Backend\MasterRotas\obj\Debug\net8.0\MasterRotas.genruntimeconfig.cache
 C:\KChallanger\Backend\MasterRotas\obj\Debug\net8.0\ref\MasterRotas.dll
+C:\KChallanger\Backend\MasterRotas\bin\Debug\net8.0\MongoDB.Driver.dll

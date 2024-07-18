@@ -1,4 +1,4 @@
-﻿using Master.Rotas.Dominio.Dto;
+﻿using Master.Rotas.Dominio.Entidade;
 using Master.Rotas.Dominio.Interface.Servicos;
 using Microsoft.AspNetCore.Mvc;
 
@@ -42,7 +42,7 @@ namespace MasterRotas.Controllers
         }
 
         [HttpPost("/Knights")]
-        public IActionResult Knights(KnightDto knight)
+        public IActionResult Knights(KnightEntidade knight)
         {
             try
             {
@@ -84,7 +84,7 @@ namespace MasterRotas.Controllers
         }
 
         [HttpPatch("/Knights/:id")]
-        public IActionResult Atualizar(KnightDto knight)
+        public IActionResult Atualizar(KnightEntidade knight)
         {
             try
             {
