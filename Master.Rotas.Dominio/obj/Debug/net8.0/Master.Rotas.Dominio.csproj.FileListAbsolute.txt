@@ -1,0 +1,51 @@
+C:\Workspace\Master\master\Master.Rotas.Dominio\bin\Debug\net8.0\Master.Rotas.Dominio.deps.json
+C:\Workspace\Master\master\Master.Rotas.Dominio\bin\Debug\net8.0\Master.Rotas.Dominio.dll
+C:\Workspace\Master\master\Master.Rotas.Dominio\bin\Debug\net8.0\Master.Rotas.Dominio.pdb
+C:\Workspace\Master\master\Master.Rotas.Dominio\obj\Debug\net8.0\Master.Rotas.Dominio.csproj.AssemblyReference.cache
+C:\Workspace\Master\master\Master.Rotas.Dominio\obj\Debug\net8.0\Master.Rotas.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\Master\master\Master.Rotas.Dominio\obj\Debug\net8.0\Master.Rotas.Dominio.AssemblyInfoInputs.cache
+C:\Workspace\Master\master\Master.Rotas.Dominio\obj\Debug\net8.0\Master.Rotas.Dominio.AssemblyInfo.cs
+C:\Workspace\Master\master\Master.Rotas.Dominio\obj\Debug\net8.0\Master.Rotas.Dominio.csproj.CoreCompileInputs.cache
+C:\Workspace\Master\master\Master.Rotas.Dominio\obj\Debug\net8.0\Master.Rotas.Dominio.sourcelink.json
+C:\Workspace\Master\master\Master.Rotas.Dominio\obj\Debug\net8.0\Master.Rotas.Dominio.dll
+C:\Workspace\Master\master\Master.Rotas.Dominio\obj\Debug\net8.0\refint\Master.Rotas.Dominio.dll
+C:\Workspace\Master\master\Master.Rotas.Dominio\obj\Debug\net8.0\Master.Rotas.Dominio.pdb
+C:\Workspace\Master\master\Master.Rotas.Dominio\obj\Debug\net8.0\ref\Master.Rotas.Dominio.dll
+C:\Workspace\MasterDeploy\master\Master.Rotas.Dominio\bin\Debug\net8.0\Master.Rotas.Dominio.deps.json
+C:\Workspace\MasterDeploy\master\Master.Rotas.Dominio\bin\Debug\net8.0\Master.Rotas.Dominio.dll
+C:\Workspace\MasterDeploy\master\Master.Rotas.Dominio\bin\Debug\net8.0\Master.Rotas.Dominio.pdb
+C:\Workspace\MasterDeploy\master\Master.Rotas.Dominio\obj\Debug\net8.0\Master.Rotas.Dominio.csproj.AssemblyReference.cache
+C:\Workspace\MasterDeploy\master\Master.Rotas.Dominio\obj\Debug\net8.0\Master.Rotas.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\MasterDeploy\master\Master.Rotas.Dominio\obj\Debug\net8.0\Master.Rotas.Dominio.AssemblyInfoInputs.cache
+C:\Workspace\MasterDeploy\master\Master.Rotas.Dominio\obj\Debug\net8.0\Master.Rotas.Dominio.AssemblyInfo.cs
+C:\Workspace\MasterDeploy\master\Master.Rotas.Dominio\obj\Debug\net8.0\Master.Rotas.Dominio.csproj.CoreCompileInputs.cache
+C:\Workspace\MasterDeploy\master\Master.Rotas.Dominio\obj\Debug\net8.0\Master.Rotas.Dominio.sourcelink.json
+C:\Workspace\MasterDeploy\master\Master.Rotas.Dominio\obj\Debug\net8.0\Master.Rotas.Dominio.dll
+C:\Workspace\MasterDeploy\master\Master.Rotas.Dominio\obj\Debug\net8.0\refint\Master.Rotas.Dominio.dll
+C:\Workspace\MasterDeploy\master\Master.Rotas.Dominio\obj\Debug\net8.0\Master.Rotas.Dominio.pdb
+C:\Workspace\MasterDeploy\master\Master.Rotas.Dominio\obj\Debug\net8.0\ref\Master.Rotas.Dominio.dll
+C:\Workspace\ALINE PESSOAL\EXAms\master\Master.Rotas.Dominio\bin\Debug\net8.0\Master.Rotas.Dominio.deps.json
+C:\Workspace\ALINE PESSOAL\EXAms\master\Master.Rotas.Dominio\bin\Debug\net8.0\Master.Rotas.Dominio.dll
+C:\Workspace\ALINE PESSOAL\EXAms\master\Master.Rotas.Dominio\bin\Debug\net8.0\Master.Rotas.Dominio.pdb
+C:\Workspace\ALINE PESSOAL\EXAms\master\Master.Rotas.Dominio\obj\Debug\net8.0\Master.Rotas.Dominio.csproj.AssemblyReference.cache
+C:\Workspace\ALINE PESSOAL\EXAms\master\Master.Rotas.Dominio\obj\Debug\net8.0\Master.Rotas.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\ALINE PESSOAL\EXAms\master\Master.Rotas.Dominio\obj\Debug\net8.0\Master.Rotas.Dominio.AssemblyInfoInputs.cache
+C:\Workspace\ALINE PESSOAL\EXAms\master\Master.Rotas.Dominio\obj\Debug\net8.0\Master.Rotas.Dominio.AssemblyInfo.cs
+C:\Workspace\ALINE PESSOAL\EXAms\master\Master.Rotas.Dominio\obj\Debug\net8.0\Master.Rotas.Dominio.csproj.CoreCompileInputs.cache
+C:\Workspace\ALINE PESSOAL\EXAms\master\Master.Rotas.Dominio\obj\Debug\net8.0\Master.Rotas.Dominio.sourcelink.json
+C:\Workspace\ALINE PESSOAL\EXAms\master\Master.Rotas.Dominio\obj\Debug\net8.0\Master.Rotas.Dominio.dll
+C:\Workspace\ALINE PESSOAL\EXAms\master\Master.Rotas.Dominio\obj\Debug\net8.0\refint\Master.Rotas.Dominio.dll
+C:\Workspace\ALINE PESSOAL\EXAms\master\Master.Rotas.Dominio\obj\Debug\net8.0\Master.Rotas.Dominio.pdb
+C:\Workspace\ALINE PESSOAL\EXAms\master\Master.Rotas.Dominio\obj\Debug\net8.0\ref\Master.Rotas.Dominio.dll
+C:\Workspace\knight_back\master-main\Master.Rotas.Dominio\bin\Debug\net8.0\Master.Rotas.Dominio.deps.json
+C:\Workspace\knight_back\master-main\Master.Rotas.Dominio\bin\Debug\net8.0\Master.Rotas.Dominio.dll
+C:\Workspace\knight_back\master-main\Master.Rotas.Dominio\bin\Debug\net8.0\Master.Rotas.Dominio.pdb
+C:\Workspace\knight_back\master-main\Master.Rotas.Dominio\obj\Debug\net8.0\Master.Rotas.Dominio.csproj.AssemblyReference.cache
+C:\Workspace\knight_back\master-main\Master.Rotas.Dominio\obj\Debug\net8.0\Master.Rotas.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\knight_back\master-main\Master.Rotas.Dominio\obj\Debug\net8.0\Master.Rotas.Dominio.AssemblyInfoInputs.cache
+C:\Workspace\knight_back\master-main\Master.Rotas.Dominio\obj\Debug\net8.0\Master.Rotas.Dominio.AssemblyInfo.cs
+C:\Workspace\knight_back\master-main\Master.Rotas.Dominio\obj\Debug\net8.0\Master.Rotas.Dominio.csproj.CoreCompileInputs.cache
+C:\Workspace\knight_back\master-main\Master.Rotas.Dominio\obj\Debug\net8.0\Master.Rotas.Dominio.dll
+C:\Workspace\knight_back\master-main\Master.Rotas.Dominio\obj\Debug\net8.0\refint\Master.Rotas.Dominio.dll
+C:\Workspace\knight_back\master-main\Master.Rotas.Dominio\obj\Debug\net8.0\Master.Rotas.Dominio.pdb
+C:\Workspace\knight_back\master-main\Master.Rotas.Dominio\obj\Debug\net8.0\ref\Master.Rotas.Dominio.dll

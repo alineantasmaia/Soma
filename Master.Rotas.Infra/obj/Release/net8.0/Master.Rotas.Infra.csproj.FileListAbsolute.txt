@@ -1,0 +1,46 @@
+C:\Workspace\MasterDeploy\Master.Rotas.Infra\bin\Release\net8.0\Master.Rotas.Infra.deps.json
+C:\Workspace\MasterDeploy\Master.Rotas.Infra\bin\Release\net8.0\Master.Rotas.Infra.dll
+C:\Workspace\MasterDeploy\Master.Rotas.Infra\bin\Release\net8.0\Master.Rotas.Infra.pdb
+C:\Workspace\MasterDeploy\Master.Rotas.Infra\bin\Release\net8.0\Master.Rotas.Dominio.dll
+C:\Workspace\MasterDeploy\Master.Rotas.Infra\bin\Release\net8.0\Master.Rotas.Dominio.pdb
+C:\Workspace\MasterDeploy\Master.Rotas.Infra\obj\Release\net8.0\Master.Rotas.Infra.csproj.AssemblyReference.cache
+C:\Workspace\MasterDeploy\Master.Rotas.Infra\obj\Release\net8.0\Master.Rotas.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\MasterDeploy\Master.Rotas.Infra\obj\Release\net8.0\Master.Rotas.Infra.AssemblyInfoInputs.cache
+C:\Workspace\MasterDeploy\Master.Rotas.Infra\obj\Release\net8.0\Master.Rotas.Infra.AssemblyInfo.cs
+C:\Workspace\MasterDeploy\Master.Rotas.Infra\obj\Release\net8.0\Master.Rotas.Infra.csproj.CoreCompileInputs.cache
+C:\Workspace\MasterDeploy\Master.Rotas.Infra\obj\Release\net8.0\Master.R.9C395DD8.Up2Date
+C:\Workspace\MasterDeploy\Master.Rotas.Infra\obj\Release\net8.0\Master.Rotas.Infra.dll
+C:\Workspace\MasterDeploy\Master.Rotas.Infra\obj\Release\net8.0\refint\Master.Rotas.Infra.dll
+C:\Workspace\MasterDeploy\Master.Rotas.Infra\obj\Release\net8.0\Master.Rotas.Infra.pdb
+C:\Workspace\MasterDeploy\Master.Rotas.Infra\obj\Release\net8.0\ref\Master.Rotas.Infra.dll
+C:\Workspace\ALINE PESSOAL\EXAms\master\Master.Rotas.Infra\bin\Release\net8.0\Master.Rotas.Infra.deps.json
+C:\Workspace\ALINE PESSOAL\EXAms\master\Master.Rotas.Infra\bin\Release\net8.0\Master.Rotas.Infra.dll
+C:\Workspace\ALINE PESSOAL\EXAms\master\Master.Rotas.Infra\bin\Release\net8.0\Master.Rotas.Infra.pdb
+C:\Workspace\ALINE PESSOAL\EXAms\master\Master.Rotas.Infra\bin\Release\net8.0\Master.Rotas.Dominio.dll
+C:\Workspace\ALINE PESSOAL\EXAms\master\Master.Rotas.Infra\bin\Release\net8.0\Master.Rotas.Dominio.pdb
+C:\Workspace\ALINE PESSOAL\EXAms\master\Master.Rotas.Infra\obj\Release\net8.0\Master.Rotas.Infra.csproj.AssemblyReference.cache
+C:\Workspace\ALINE PESSOAL\EXAms\master\Master.Rotas.Infra\obj\Release\net8.0\Master.Rotas.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\ALINE PESSOAL\EXAms\master\Master.Rotas.Infra\obj\Release\net8.0\Master.Rotas.Infra.AssemblyInfoInputs.cache
+C:\Workspace\ALINE PESSOAL\EXAms\master\Master.Rotas.Infra\obj\Release\net8.0\Master.Rotas.Infra.AssemblyInfo.cs
+C:\Workspace\ALINE PESSOAL\EXAms\master\Master.Rotas.Infra\obj\Release\net8.0\Master.Rotas.Infra.csproj.CoreCompileInputs.cache
+C:\Workspace\ALINE PESSOAL\EXAms\master\Master.Rotas.Infra\obj\Release\net8.0\Master.Rotas.Infra.sourcelink.json
+C:\Workspace\ALINE PESSOAL\EXAms\master\Master.Rotas.Infra\obj\Release\net8.0\Master.R.9C395DD8.Up2Date
+C:\Workspace\ALINE PESSOAL\EXAms\master\Master.Rotas.Infra\obj\Release\net8.0\Master.Rotas.Infra.dll
+C:\Workspace\ALINE PESSOAL\EXAms\master\Master.Rotas.Infra\obj\Release\net8.0\refint\Master.Rotas.Infra.dll
+C:\Workspace\ALINE PESSOAL\EXAms\master\Master.Rotas.Infra\obj\Release\net8.0\Master.Rotas.Infra.pdb
+C:\Workspace\ALINE PESSOAL\EXAms\master\Master.Rotas.Infra\obj\Release\net8.0\ref\Master.Rotas.Infra.dll
+C:\Workspace\knight_back\master-main\Master.Rotas.Infra\bin\Release\net8.0\Master.Rotas.Infra.deps.json
+C:\Workspace\knight_back\master-main\Master.Rotas.Infra\bin\Release\net8.0\Master.Rotas.Infra.dll
+C:\Workspace\knight_back\master-main\Master.Rotas.Infra\bin\Release\net8.0\Master.Rotas.Infra.pdb
+C:\Workspace\knight_back\master-main\Master.Rotas.Infra\bin\Release\net8.0\Master.Rotas.Dominio.dll
+C:\Workspace\knight_back\master-main\Master.Rotas.Infra\bin\Release\net8.0\Master.Rotas.Dominio.pdb
+C:\Workspace\knight_back\master-main\Master.Rotas.Infra\obj\Release\net8.0\Master.Rotas.Infra.csproj.AssemblyReference.cache
+C:\Workspace\knight_back\master-main\Master.Rotas.Infra\obj\Release\net8.0\Master.Rotas.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\knight_back\master-main\Master.Rotas.Infra\obj\Release\net8.0\Master.Rotas.Infra.AssemblyInfoInputs.cache
+C:\Workspace\knight_back\master-main\Master.Rotas.Infra\obj\Release\net8.0\Master.Rotas.Infra.AssemblyInfo.cs
+C:\Workspace\knight_back\master-main\Master.Rotas.Infra\obj\Release\net8.0\Master.Rotas.Infra.csproj.CoreCompileInputs.cache
+C:\Workspace\knight_back\master-main\Master.Rotas.Infra\obj\Release\net8.0\Master.R.9C395DD8.Up2Date
+C:\Workspace\knight_back\master-main\Master.Rotas.Infra\obj\Release\net8.0\Master.Rotas.Infra.dll
+C:\Workspace\knight_back\master-main\Master.Rotas.Infra\obj\Release\net8.0\refint\Master.Rotas.Infra.dll
+C:\Workspace\knight_back\master-main\Master.Rotas.Infra\obj\Release\net8.0\Master.Rotas.Infra.pdb
+C:\Workspace\knight_back\master-main\Master.Rotas.Infra\obj\Release\net8.0\ref\Master.Rotas.Infra.dll

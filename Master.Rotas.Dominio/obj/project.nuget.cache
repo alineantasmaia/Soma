@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "S+cpiADaoh30k8G1CdQyZdtG1laTRSHm0TGk5U9NBg+L31LufFn0pjKpyVN+lJpwQKzRs8q1Lrm7VvJX8oy48Q==",
+  "success": true,
+  "projectFilePath": "C:\\Workspace\\KC\\Back\\Master.Rotas.Dominio\\Master.Rotas.Dominio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Consultor\\.nuget\\packages\\fluentvalidation\\11.9.1\\fluentvalidation.11.9.1.nupkg.sha512"
+  ],
+  "logs": []
+}
